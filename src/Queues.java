@@ -22,7 +22,7 @@ public class Queues
         colas = new HashMap<String, Semaphore>();
         
         for(String transicion: transiciones)
-            colas.put(transicion, new Semaphore(0));
+            colas.put(transicion, new Semaphore(0,true));
     }
     
     public void acquireTransition(String transicion)

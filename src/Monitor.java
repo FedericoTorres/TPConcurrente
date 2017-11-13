@@ -60,7 +60,16 @@ public class Monitor
                 }
                 else
                 {
-                    int numAleatorio = (int) (Math.random() * sensibilizadas.size());
+                    int numAleatorio;
+                    if (sensibilizadas.size() > 1)
+                    {
+                        numAleatorio = (int) (Math.random() * sensibilizadas.size());
+
+                    }
+                    else
+                    {
+                        numAleatorio = 0;
+                    }
                     colas.releaseTransition(sensibilizadas.get(numAleatorio));
                 }
             }
