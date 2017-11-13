@@ -1,0 +1,29 @@
+R1 Lleva Pieza a Línea de producción A,P11
+Pieza siendo procesada por Máquina 1,P12
+R2 lleva la pieza de la Máquina 1 a M2,P14
+Pieza siendo procesada por Máquina 2,P16
+R3 lleva pieza terminada a depósito,P18
+Pieza siendo procesada por Máquina 3,P13
+R2 lleva la pieza de la Máquina 1 a M2,P15
+Pieza siendo procesada por Máquina 4,P17
+R2 lleva pieza a máquina2,P21
+Pieza siendo procesada por Máquina 2,P22
+R2 lleva pieza terminada a depósito,P23
+R3 lleva pieza a máquina 4,P31
+Pieza siendo procesada por máquina 4,P32
+R2 lleva pieza a maquina 3,P33
+Pieza siendo procesada por Máquina 3,P34
+R1 lleva pieza terminada a depósito,P35
+Depósito de piezas A,P10
+Depósito de piezas B,P20
+Depósito de piezas C,P30
+Robot 1,R1
+Robot 2,R2
+Robot 3,R3
+Máquina 1,M1
+Máquina 2,M2
+Máquina 3,M3
+Máquina 4,M4
+Plaza de ControlB,ControlB
+Plaza de Control AB,ControlAB
+Plaza de Control AC,ControlAC

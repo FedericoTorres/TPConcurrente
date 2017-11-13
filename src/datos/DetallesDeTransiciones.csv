@@ -1,0 +1,20 @@
+Tomar pieza A de Input 1,T10
+LLevar pieza a máquina 1,T11
+Tomar pieza A de M1,T13
+LLevar pieza a máquina 2,T15
+Tomar pieza de M2,T17
+LLevar pieza a máquina 3,T12
+Tomar Pieza A de M3,T14
+LLevar pieza a máquina 4,T16
+Tomar pieza de M4,T18
+LLevar pieza a depósito,T19
+Tomar pieza B de Input 2,T21
+LLevar pieza a máquina 2,T22
+Tomar pieza de M2,T23
+LLevar pieza depósito,T24
+Tomar pieza C de Input 3,T31
+LLevar pieza a máquina 4,T32
+Tomar pieza de M4,T33
+LLevar pieza a M3,T34
+Tomar pieza de M3,T35
+Llevar pieza a depósito,T36
