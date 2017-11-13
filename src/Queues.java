@@ -15,28 +15,21 @@ import java.util.concurrent.Semaphore;
 
 public class Queues 
 {
-    private HashMap<String, Semaphore> queues;
-    private HashMap<String, Integer> waiting;
+    private HashMap<String, Semaphore> colas;
     
-    public Queues(ArrayList<String> transitions)
+    public Queues(ArrayList<String> transiciones)
     {
-        queues = new HashMap<String, Semaphore>();
-        waiting = new HashMap<String, Integer>();
+        colas = new HashMap<String, Semaphore>();
         
-        for(String transition: transitions)
-        {
-            queues.put(transition, new Semaphore(0));
-            waiting.put(transition, 0);
-        }
+        for(String transicion: transiciones)
+            colas.put(transicion, new Semaphore(0));
     }
     
-    public void acquireTransition(String transition)
+    public void acquireTransition(String transicion)
     {
-        waiting.replace(transition, waiting.get(transition) + 1);
-        
         try
         {
-            queues.get(transition).acquire();
+            colas.get(transicion).acquire();
         }
         catch(InterruptedException e)
         {
@@ -44,23 +37,21 @@ public class Queues
         }
     }
     
-    public void releaseTransition(String transition)
-    {
-        waiting.replace(transition, waiting.get(transition) - 1);
-        
-        queues.get(transition).release();
+    public void releaseTransition(String transicion)
+    {  
+        colas.get(transicion).release();
     }
     
-    public ArrayList<String> getWaiting()
+    public ArrayList<String> getEsperando()
     {
-        ArrayList<String> listWaiting = new ArrayList<String>();
+        ArrayList<String> listaEsperando = new ArrayList<String>();
         
-        for(String transition : queues.keySet())
-        {
-            if(waiting.get(transition) > 0)
-                listWaiting.add(transition);
+        for(String transicion : colas.keySet())
+        {    
+            if(colas.get(transicion).getQueueLength() > 0)
+                listaEsperando.add(transicion);
         }
         
-        return listWaiting;
+        return listaEsperando;
     }
 }
