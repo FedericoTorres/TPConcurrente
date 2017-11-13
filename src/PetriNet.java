@@ -159,6 +159,15 @@ public class PetriNet
         return listaSensibilizadas.get(transicion);
     }
     
+    public ArrayList<String> getListaTransiciones()
+    {
+        return listaTransiciones;
+    }
+    
+    public ArrayList<String> getListaPlazas()
+    {
+        return listaPlazas;
+    }
     
         
 }
