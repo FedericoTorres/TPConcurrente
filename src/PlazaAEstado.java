@@ -41,7 +41,7 @@ public class PlazaAEstado
         {
             String cl = clave;
             String valor = mapaEstados.get(cl);
-            System.out.println(cl + " " + valor);
+            //System.out.println(cl + " " + valor);
         }
       
     }
@@ -53,7 +53,7 @@ public class PlazaAEstado
      * @param plazita
      * @return String
      */
-    public String getEstado(String plazita)
+    public synchronized String getEstado(String plazita)
     {
         return mapaEstados.get(plazita);
     }

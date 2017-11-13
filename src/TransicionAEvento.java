@@ -37,7 +37,7 @@ public class TransicionAEvento
         {
             String cl = clave;
             String valor = mapaTransiciones.get(cl);
-            System.out.println(cl + " " + valor);
+            //System.out.println(cl + " " + valor);
         }
       
     }
@@ -48,7 +48,7 @@ public class TransicionAEvento
      * @param transicion
      * @return 
     */
-    public String getEvento(String transicion)
+    public synchronized String getEvento(String transicion)
     {
         return mapaTransiciones.get(transicion);
     }

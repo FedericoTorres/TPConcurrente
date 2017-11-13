@@ -36,10 +36,10 @@ public class PetriNet
         String items [] = line.split(",");
         int filas = Integer.parseInt(items[0]);
         int columnas = Integer.parseInt(items[1]);
-        System.out.println(filas);
-        System.out.println(columnas);
+       // System.out.println(filas);
+       //System.out.println(columnas);
         matrizDeIncidencia = new int[filas][columnas];
-        System.out.println("------------");
+       // System.out.println("------------");
         for (int i = 0; i < filas; i++)
         {
             line = br.readLine();
@@ -47,7 +47,7 @@ public class PetriNet
             for (int j = 0; j < columnas; j++)
             {
                 matrizDeIncidencia [i] [j] = Integer.parseInt(items[j]);
-                System.out.print(matrizDeIncidencia[i] [j]);
+               // System.out.print(matrizDeIncidencia[i] [j]);
             }
             System.out.println("");
         }
@@ -55,8 +55,8 @@ public class PetriNet
         
         listaPlazas = new ArrayList<>(plazas);
         listaTransiciones = new ArrayList<>(transiciones);
-        System.out.println(listaPlazas);
-        System.out.println(listaTransiciones);
+       // System.out.println(listaPlazas);
+       // System.out.println(listaTransiciones);
         Collections.sort(listaPlazas);
         Collections.sort(listaTransiciones);
         System.out.println(listaPlazas);
@@ -71,7 +71,7 @@ public class PetriNet
         {
             marcado [i] = Integer.parseInt(items [i]);
         }
-        System.out.println(Arrays.toString(marcado));
+       // System.out.println(Arrays.toString(marcado));
         
         listaSensibilizadas = new HashMap<>();
         br = new BufferedReader(new FileReader(sensibilizadasFile));
@@ -82,7 +82,7 @@ public class PetriNet
         {
             listaSensibilizadas.put(listaTransiciones.get(i),Boolean.parseBoolean(items[i]));
         }
-        System.out.println(listaSensibilizadas + "  " + listaSensibilizadas.size());
+       // System.out.println(listaSensibilizadas + "  " + listaSensibilizadas.size());
     }
         
         

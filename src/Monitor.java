@@ -50,7 +50,8 @@ public class Monitor
             {
                 ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
                 ArrayList<String> esperando = colas.getEsperando();
-                
+                System.out.println(transicion);
+                System.out.println(sensibilizadas);
                 sensibilizadas.retainAll(esperando);
                 if(sensibilizadas.isEmpty())
                 {
@@ -66,6 +67,8 @@ public class Monitor
             {
                 mutex.release();
                 colas.acquireTransition(transicion);
+                System.out.println("Usted intento disparar " + transicion);
+
             }
         }
         

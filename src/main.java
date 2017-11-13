@@ -1,7 +1,11 @@
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.Semaphore;
 
 /*
@@ -29,6 +33,7 @@ public class main {
         String path4 = "MatrizSensibilizadas.csv";
         String path5 = "DetallesDeTransiciones.csv";
         String path6 = "DetallesDePlazas.csv";
+        String path7 = "Hilos.csv";
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         buff.append(filePath);
@@ -47,6 +52,9 @@ public class main {
         buff.delete((filePath.length() + path1.length()), buff.length());
         buff.append(path6);
         path6 = buff.toString();
+        buff.delete((filePath.length() + path1.length()), buff.length());
+        buff.append(path7);
+        path7 = buff.toString();
 
         
         PlazaAEstado plazas = new PlazaAEstado(path6);
@@ -56,6 +64,36 @@ public class main {
                 , plazas.getKeys(), transiciones.getKeys()
                 , path3
                 , path4);
+
+
+
+        Monitor monitor = new Monitor(red);
+        ArrayList<Thread> hilos = new ArrayList<>();
+        BufferedReader br = null;
+        br = new BufferedReader(new FileReader(path7));
+        for (int i = 0; i < 9; i++)
+        {
+            String line  = br.readLine();
+            String[] items = line.split(",");
+            List list = Arrays.asList(items);
+            Hilo hilo1 = new Hilo (monitor, transiciones.getKeys(), new ArrayList<>(list));
+            hilos.add(new Thread(hilo1));
+        }
+        
+        System.out.println("AQUI COMIENZA LA EJECUCION REAL");
+        System.out.println("------------------------------");
+        for (Thread th : hilos)
+        {
+            th.start();
+        }
+        
+        
+        
+        
+        
+        
+        
+        /**
         ArrayList<String> sensibilizadas = red.estanSensibilizadas();
         System.out.println(sensibilizadas);
         red.disparo("T10");
@@ -67,6 +105,8 @@ public class main {
         red.disparo("T11");
         sensibilizadas = red.estanSensibilizadas();
         System.out.println(sensibilizadas);
+         * */
+
         
 
 
