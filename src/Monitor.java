@@ -53,13 +53,14 @@ public class Monitor
                 System.out.println(transicion);
                 System.out.println(sensibilizadas);
                 sensibilizadas.retainAll(esperando);
+                System.out.println("En el mutex de la cola esta" + sensibilizadas);
                 if(sensibilizadas.isEmpty())
                 {
                     k = false;
                 }
                 else
                 {
-                    int numAleatorio = ThreadLocalRandom.current().nextInt(0, sensibilizadas.size());
+                    int numAleatorio = (int) (Math.random() * sensibilizadas.size());
                     colas.releaseTransition(sensibilizadas.get(numAleatorio));
                 }
             }

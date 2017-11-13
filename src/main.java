@@ -82,10 +82,26 @@ public class main {
         
         System.out.println("AQUI COMIENZA LA EJECUCION REAL");
         System.out.println("------------------------------");
-        for (Thread th : hilos)
-        {
-            th.start();
-        }
+        Thread thread0 = hilos.get(0);
+        Thread thread1 = hilos.get(1);
+        Thread thread2 = hilos.get(2);
+        Thread thread3 = hilos.get(3);
+        Thread thread4 = hilos.get(4);
+        Thread thread5 = hilos.get(5);
+        Thread thread6 = hilos.get(6);
+        Thread thread7 = hilos.get(7);
+        Thread thread8 = hilos.get(8);
+
+        thread0.start();
+        thread1.start();
+        thread2.start();
+        thread3.start();
+        thread4.start();
+        thread5.start();
+        thread6.start();
+        thread7.start();
+        thread8.start();
+        
         
         
         

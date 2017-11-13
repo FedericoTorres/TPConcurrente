@@ -59,8 +59,8 @@ public class PetriNet
        // System.out.println(listaTransiciones);
         Collections.sort(listaPlazas);
         Collections.sort(listaTransiciones);
-        System.out.println(listaPlazas);
-        System.out.println(listaTransiciones);
+       // System.out.println(listaPlazas);
+       // System.out.println(listaTransiciones);
         
         marcado = new int [filas];
         br = new BufferedReader(new FileReader(marcadoInicialFile));
