@@ -20,11 +20,11 @@ public class TransicionAEvento
      private HashMap<String,String> mapaTransiciones;
     
     
-    public TransicionAEvento() throws IOException
+    public TransicionAEvento(String file) throws IOException
     {
         mapaTransiciones = new HashMap<>();
         BufferedReader br = null;
-        br = new BufferedReader(new FileReader("/home/leo/NetBeansProjects/TPFinal_Concurrente/src/datos/DetallesDeTransiciones.csv"));
+        br = new BufferedReader(new FileReader(file));
         String line  = br.readLine();
         while (line != null)
         {

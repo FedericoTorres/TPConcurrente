@@ -24,11 +24,11 @@ public class PlazaAEstado
     private HashMap<String,String> mapaEstados;
     
     
-    public PlazaAEstado() throws IOException
+    public PlazaAEstado(String file) throws IOException
     {
         mapaEstados = new HashMap<>();
         BufferedReader br = null;
-        br = new BufferedReader(new FileReader("/home/leo/NetBeansProjects/TPFinal_Concurrente/src/datos/DetallesDePlazas.csv"));
+        br = new BufferedReader(new FileReader(file));
         String line  = br.readLine();
         while (line != null)
         {
