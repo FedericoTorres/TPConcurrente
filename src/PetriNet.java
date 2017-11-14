@@ -47,7 +47,7 @@ public class PetriNet
             for (int j = 0; j < columnas; j++)
             {
                 matrizDeIncidencia [i] [j] = Integer.parseInt(items[j]);
-               // System.out.print(matrizDeIncidencia[i] [j]);
+               //System.out.print(matrizDeIncidencia[i] [j]);
             }
             System.out.println("");
         }
