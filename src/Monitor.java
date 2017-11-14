@@ -82,7 +82,7 @@ public class Monitor
             
             if(seDisparo)
             {
-                archivito.println(new Date().getTime() + "\t\t" + Thread.currentThread().getId()+"\t\tDisparando\t\t\t"+ transicion +"\t\t[enventana,nadieesp]");
+                archivito.println(new Date().getTime() + "\t\t" + Thread.currentThread().getId()+"\t\tDisparando\t\t\t"+ transicion +"\t\t[disparada]");
                 ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
                 ArrayList<String> esperando = colas.getEsperando();
                // System.out.println(transicion);
@@ -106,7 +106,7 @@ public class Monitor
                         numAleatorio = 0;
                     }
                     colas.releaseTransition(sensibilizadas.get(numAleatorio));
-                    return;
+                    break;
                 }
             }
             else
