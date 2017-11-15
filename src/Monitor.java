@@ -114,7 +114,7 @@ public class Monitor
                         numAleatorio = 0;
                     }
                     colas.releaseTransition(sensibilizadas.get(numAleatorio));
-                    //break;
+                    break;
                 }
             }
             else

@@ -60,14 +60,6 @@ public class main {
         PlazaAEstado plazas = new PlazaAEstado(path6);
         System.out.println("---------------------");
         TransicionAEvento transiciones = new TransicionAEvento(path5);
-        /*PetriNet red = new PetriNet(path2
-                , plazas.getKeys(), transiciones.getKeys()
-                , path3
-                , path4);
-        */
-
-
-        //Monitor monitor = new Monitor(red);
         Monitor monitor = new Monitor (path2
                 , plazas.getKeys(), transiciones.getKeys()
                 , path3

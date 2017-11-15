@@ -11,25 +11,26 @@
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.concurrent.Semaphore;
 
 public class Queues 
 {
-    private HashMap<String, Semaphore> colas;
+    private HashMap<String, SemaforoC> colas;
     
     public Queues(ArrayList<String> transiciones)
     {
-        colas = new HashMap<String, Semaphore>();
+        colas = new HashMap<>();
         
         for(String transicion: transiciones)
-            colas.put(transicion, new Semaphore(0,true));
+            colas.put(transicion, new SemaforoC());
     }
     
     public void acquireTransition(String transicion)
     {
         try
         {
+            colas.get(transicion).getSemaphore();
             colas.get(transicion).acquire();
+            
         }
         catch(InterruptedException e)
         {
@@ -39,6 +40,7 @@ public class Queues
     
     public void releaseTransition(String transicion)
     {  
+        colas.get(transicion).releaseSemaphore();
         colas.get(transicion).release();
     }
     
@@ -48,7 +50,7 @@ public class Queues
         
         for(String transicion : colas.keySet())
         {    
-            if(colas.get(transicion).getQueueLength() > 0)
+            if(colas.get(transicion).getLength() > 0)
                 listaEsperando.add(transicion);
         }
         
