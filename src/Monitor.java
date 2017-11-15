@@ -10,6 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.io.PrintStream;
+import java.util.Arrays;
 import java.util.Date;
 
 
@@ -30,6 +31,7 @@ public class Monitor
     private Semaphore mutex;
     private boolean k;
     private PrintStream archivito;
+    private PrintStream marcados;
     
     public Monitor(PetriNet pn)
     {
@@ -50,13 +52,19 @@ public class Monitor
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         String path = "/src/datos/log_prueba.txt";
+        String path2 = "/src/datos/log_marcados.txt";
         buff.append(filePath);
         buff.append(path);
         path = buff.toString();
+        buff.delete(filePath.length(), buff.length());
+        buff.append(path2);
+        path2 = buff.toString();
         try 
         {
 			archivito= new PrintStream(new FileOutputStream(path));
 			archivito.println("Timestamp\t\tThreadID\t\tAccion\t\tTransicion\t\tDetalle");
+                        marcados = new PrintStream(new FileOutputStream(path2));
+                        marcados.println("Marcados");
         } catch (FileNotFoundException e) 
         {
 			// TODO Auto-generated catch block
@@ -83,6 +91,7 @@ public class Monitor
             if(seDisparo)
             {
                 archivito.println(new Date().getTime() + "\t\t" + Thread.currentThread().getId()+"\t\tDisparando\t\t\t"+ transicion +"\t\t[disparada]");
+                marcados.println(Arrays.toString(pn.getMarcado()));
                 ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
                 ArrayList<String> esperando = colas.getEsperando();
                // System.out.println(transicion);

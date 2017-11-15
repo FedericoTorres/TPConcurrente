@@ -169,6 +169,11 @@ public class PetriNet
         return listaPlazas;
     }
     
+    public int [] getMarcado()
+    {
+        return this.marcado;
+    }
+    
         
 }
 
