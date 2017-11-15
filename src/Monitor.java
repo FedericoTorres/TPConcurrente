@@ -11,7 +11,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.io.PrintStream;
 import java.util.Arrays;
-import java.util.Date;
 
 
 /*
@@ -62,7 +61,6 @@ public class Monitor
         try 
         {
 			archivito= new PrintStream(new FileOutputStream(path));
-			archivito.println("Timestamp\t\tThreadID\t\tAccion\t\tTransicion\t\tDetalle");
                         marcados = new PrintStream(new FileOutputStream(path2));
                         marcados.println("Marcados");
         } catch (FileNotFoundException e) 
@@ -91,7 +89,7 @@ public class Monitor
             if(pn.puedeDispararse2(transicion))
             {
                 pn.disparo2(transicion);
-                archivito.println(new Date().getTime() + "\t\t" + Thread.currentThread().getId()+"\t\tDisparando\t\t\t"+ transicion +"\t\t[disparada]");
+                archivito.println(Thread.currentThread().getId()+"\t\tDisparando\t\t\t"+ transicion);
                 marcados.println(Arrays.toString(pn.getMarcado()));
                 ArrayList<String> sensibilizadas = pn.estanSensibilizadas2();
                 ArrayList<String> esperando = colas.getEsperando();
@@ -121,7 +119,7 @@ public class Monitor
             }
             else
             {
-                archivito.println(new Date().getTime() + "\t\t" + Thread.currentThread().getId()+"\t\tBloqueado\t\t\t"+ transicion +"\t\t[nosensibilizada]");
+                archivito.println(Thread.currentThread().getId()+"\t\tBloqueado\t\t\t"+ transicion);
                 mutex.release();
                 colas.acquireTransition(transicion);
                 //System.out.println("Usted intento disparar " + transicion);
