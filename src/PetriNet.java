@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Set;
 
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -26,6 +27,7 @@ public class PetriNet
     private ArrayList<String> listaPlazas;
     private ArrayList<String> listaTransiciones;
     private HashMap<String, Boolean> listaSensibilizadas;
+    private boolean sensibilizadas [];
     
     public PetriNet(String matrizFile, Set plazas, Set transiciones, 
                     String marcadoInicialFile, String sensibilizadasFile) throws FileNotFoundException, IOException
@@ -63,6 +65,7 @@ public class PetriNet
        // System.out.println(listaTransiciones);
         
         marcado = new int [filas];
+        sensibilizadas = new boolean [columnas];
         br = new BufferedReader(new FileReader(marcadoInicialFile));
         line  = br.readLine();
         items = line.split(",");
@@ -81,8 +84,10 @@ public class PetriNet
         for (int i = 0; i < columnas; i++)
         {
             listaSensibilizadas.put(listaTransiciones.get(i),Boolean.parseBoolean(items[i]));
+            sensibilizadas [i] = Boolean.parseBoolean(items [i]);
         }
-       // System.out.println(listaSensibilizadas + "  " + listaSensibilizadas.size());
+        System.out.println (Arrays.toString(sensibilizadas));
+      
     }
         
         
@@ -105,24 +110,45 @@ public class PetriNet
         return tmp;
     }
     
+    public void disparo2 (String transicion)
+    {
+         for (int i = 0; i < listaPlazas.size(); i++)
+            {
+                marcado [i] = marcado [i] + matrizDeIncidencia [i] [listaTransiciones.indexOf(transicion)];
+            }
+        actualizarSensibilizadas2();
+    }
+    
     /**
      * Método que devuelve todas las transiciones en condiciones de disparo
      * @return ArrayList de Transiciones
      */
     public ArrayList<String> estanSensibilizadas()
     {
-        ArrayList<String> sensibilizadas = new ArrayList<>();
+        ArrayList<String> listaAuxiliar = new ArrayList<>();
         ArrayList<String> aux = new ArrayList<>(listaSensibilizadas.keySet());
         for (String tmp : aux)
         {
             if (listaSensibilizadas.get(tmp))
             {
-                sensibilizadas.add(tmp);
+                listaAuxiliar.add(tmp);
             }
         }
         
-        Collections.sort(sensibilizadas);
-        return sensibilizadas;
+        Collections.sort(listaAuxiliar);
+        return listaAuxiliar;
+    }
+    public ArrayList<String> estanSensibilizadas2()
+    {
+        ArrayList<String> listaAuxiliar = new ArrayList<>();
+        for (int i = 0; i < listaTransiciones.size(); i++)
+        {
+            if (sensibilizadas [i])
+            {
+                listaAuxiliar.add(listaTransiciones.get(i));
+            }
+        }
+        return listaAuxiliar;
     }
     
     /**
@@ -141,12 +167,36 @@ public class PetriNet
             {
                 if (marcado [j] == 0 && matrizDeIncidencia [j] [i] == -1)
                 {
-                    listaSensibilizadas.put(listaTransiciones.get(i), Boolean.FALSE);
+                    listaSensibilizadas.replace(listaTransiciones.get(i), Boolean.FALSE);
                     break;
                 }
             }
         }
     }
+    
+    private void actualizarSensibilizadas2 ()
+    {
+        /*
+        for (int i = 0; i < listaTransiciones.size() ; i++)
+        {
+            sensibilizadas [i] = true;
+        }
+        */
+        for (int i = 0; i < listaTransiciones.size(); i++)
+        {
+            boolean res = true;
+            for (int j = 0; j < listaPlazas.size(); j++)
+            {
+                if (marcado [j] + matrizDeIncidencia [j] [i] >= 0)
+                    res = res && true;
+                else
+                    res = res && false;
+            }
+            sensibilizadas [i] = res;
+                    
+        }
+    }
+    
     
     /**
      * Función que corrobora si una transición puede dispararse
@@ -156,8 +206,22 @@ public class PetriNet
      */
     private boolean puedeDispararse(String transicion)
     {
-        return listaSensibilizadas.get(transicion);
+        return (boolean)(listaSensibilizadas.get(transicion));
     }
+    
+    public boolean puedeDispararse2(String transicion)
+    {
+        if (listaTransiciones.contains(transicion))
+        {
+            return sensibilizadas [listaTransiciones.indexOf(transicion)];
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+    
     
     public ArrayList<String> getListaTransiciones()
     {
