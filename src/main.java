@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.Semaphore;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -68,11 +67,8 @@ public class main {
                                     , path4);
         */
         
-        Monitor monitor = new Monitor (path2
-                                            , plazas.getKeys(), transiciones.getKeys()
-                                            , path3
-                                            , path4);
-
+        Monitor monitor = new Monitor (path2, plazas.getKeys(),
+                                        transiciones.getKeys(), path3, path4);
         ArrayList<Thread> hilos = new ArrayList<>();
         BufferedReader br = null;
         br = new BufferedReader(new FileReader(path7));
@@ -89,6 +85,11 @@ public class main {
         System.out.println("AQUI COMIENZA LA EJECUCION REAL");
         System.out.println("------------------------------");
         
+        for (Thread aux : hilos)
+        {
+            aux.start();
+        }
+        /*
         Thread thread0 = hilos.get(0);
         Thread thread1 = hilos.get(1);
         Thread thread2 = hilos.get(2);
@@ -126,13 +127,8 @@ public class main {
         thread15.start();
         thread16.start();
         thread17.start();
-       
-        
-        
-        
-        
-        
-        
+        /*
+
         
         /*
         ArrayList<String> sensibilizadas = red.estanSensibilizadas2();
@@ -179,13 +175,6 @@ public class main {
         sensibilizadas = red.estanSensibilizadas2();
         System.out.println(sensibilizadas);
 */
-
-
-        
-        
-
-        
-
 
     }
     
