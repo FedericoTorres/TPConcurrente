@@ -60,6 +60,14 @@ public class main {
         PlazaAEstado plazas = new PlazaAEstado(path6);
         System.out.println("---------------------");
         TransicionAEvento transiciones = new TransicionAEvento(path5);
+        
+        /*
+        PetriNet red = new PetriNet(path2
+                                    , plazas.getKeys(), transiciones.getKeys()
+                                    , path3
+                                    , path4);
+        */
+        
         Monitor monitor = new Monitor (path2
                 , plazas.getKeys(), transiciones.getKeys()
                 , path3
@@ -76,9 +84,11 @@ public class main {
             Hilo hilo1 = new Hilo (monitor, transiciones.getKeys(), new ArrayList<>(list));
             hilos.add(new Thread(hilo1));
         }
-        
+        br.close();
+
         System.out.println("AQUI COMIENZA LA EJECUCION REAL");
         System.out.println("------------------------------");
+        
         Thread thread0 = hilos.get(0);
         Thread thread1 = hilos.get(1);
         Thread thread2 = hilos.get(2);
@@ -98,6 +108,7 @@ public class main {
         thread6.start();
         thread7.start();
         thread8.start();
+       
         
         
         
@@ -105,20 +116,55 @@ public class main {
         
         
         
-        
-        /**
-        ArrayList<String> sensibilizadas = red.estanSensibilizadas();
+        /*
+        ArrayList<String> sensibilizadas = red.estanSensibilizadas2();
         System.out.println(sensibilizadas);
-        red.disparo("T10");
-        sensibilizadas = red.estanSensibilizadas();
+        System.out.println("Voy a disparar T10");
+        red.disparo2("T10");
+        sensibilizadas = red.estanSensibilizadas2();
         System.out.println(sensibilizadas);
-        red.disparo("T21");
-        sensibilizadas = red.estanSensibilizadas();
+        System.out.println("Voy a disparar T21");
+        red.disparo2("T21");
+        sensibilizadas = red.estanSensibilizadas2();
         System.out.println(sensibilizadas);
-        red.disparo("T11");
-        sensibilizadas = red.estanSensibilizadas();
+        System.out.println("Voy a disparar T11");
+        red.disparo2("T11");
+        sensibilizadas = red.estanSensibilizadas2();
         System.out.println(sensibilizadas);
-         * */
+        System.out.println("Voy a disparar T10");
+        red.disparo2("T10");
+        sensibilizadas = red.estanSensibilizadas2();
+        System.out.println(sensibilizadas);
+        System.out.println("Voy a disparar T22");
+        red.disparo2("T22");
+        sensibilizadas = red.estanSensibilizadas2();
+        System.out.println(sensibilizadas);
+        System.out.println("Voy a disparar T23");
+        red.disparo2("T23");
+        sensibilizadas = red.estanSensibilizadas2();
+        System.out.println(sensibilizadas);
+        System.out.println("Voy a disparar T24");
+        red.disparo2("T24");
+        sensibilizadas = red.estanSensibilizadas2();
+        System.out.println(sensibilizadas);
+        System.out.println("Voy a disparar T13");
+        red.disparo2("T13");
+        sensibilizadas = red.estanSensibilizadas2();
+        System.out.println(sensibilizadas);
+        System.out.println("Voy a disparar T12");
+        red.disparo2("T12");
+        sensibilizadas = red.estanSensibilizadas2();
+        System.out.println(sensibilizadas);
+        System.out.println("Voy a disparar T31");
+        System.out.println(red.puedeDispararse2("T16"));
+        red.disparo2("T31");
+        sensibilizadas = red.estanSensibilizadas2();
+        System.out.println(sensibilizadas);
+*/
+
+
+        
+        
 
         
 

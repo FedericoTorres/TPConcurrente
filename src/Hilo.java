@@ -41,9 +41,9 @@ public class Hilo implements Runnable
     {   
         while(true)
         {
-            for (String aux : transicionesADisparar)
+            for (int i= 0; i < transicionesADisparar.size(); i++)
             {
-                monitor.dispararTransicion(aux);
+                monitor.dispararTransicion(transicionesADisparar.get(i));
             }
         }
         
