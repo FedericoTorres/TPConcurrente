@@ -60,13 +60,13 @@ public class Monitor
         path2 = buff.toString();
         try 
         {
-			archivito= new PrintStream(new FileOutputStream(path));
-                        marcados = new PrintStream(new FileOutputStream(path2));
-                        marcados.println("Marcados");
+            archivito= new PrintStream(new FileOutputStream(path));
+            marcados = new PrintStream(new FileOutputStream(path2));
+            marcados.println("Marcados");
         } catch (FileNotFoundException e) 
         {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+            e.printStackTrace();
 	}
     }
     
@@ -86,11 +86,11 @@ public class Monitor
         {
             
             
-            if(pn.puedeDispararse2(transicion))
+            if(pn.puedeDispararse(transicion))
             {
-                pn.disparo2(transicion);
+                pn.disparo(transicion);
                 marcados.println(Arrays.toString(pn.getMarcado()));
-                ArrayList<String> sensibilizadas = pn.estanSensibilizadas2();
+                ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
                 ArrayList<String> esperando = colas.getEsperando();
                 archivito.println(Thread.currentThread().getId()+"\t\tDisparando\t\t\t"+ transicion + 
                                     "\t\t\t" + esperando + "\t\t\t" + sensibilizadas );

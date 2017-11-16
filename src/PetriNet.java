@@ -26,7 +26,6 @@ public class PetriNet
     private int marcado [];
     private ArrayList<String> listaPlazas;
     private ArrayList<String> listaTransiciones;
-    private HashMap<String, Boolean> listaSensibilizadas;
     private boolean sensibilizadas [];
     
     public PetriNet(String matrizFile, Set plazas, Set transiciones, 
@@ -76,14 +75,12 @@ public class PetriNet
         }
        // System.out.println(Arrays.toString(marcado));
         
-        listaSensibilizadas = new HashMap<>();
         br = new BufferedReader(new FileReader(sensibilizadasFile));
         line = br.readLine();
         items = line.split(",");
         br.close();
         for (int i = 0; i < columnas; i++)
         {
-            listaSensibilizadas.put(listaTransiciones.get(i),Boolean.parseBoolean(items[i]));
             sensibilizadas [i] = Boolean.parseBoolean(items [i]);
         }
         System.out.println (Arrays.toString(sensibilizadas));
@@ -94,29 +91,14 @@ public class PetriNet
     /**
      * Función que se encarga de disparar una transición de la red de Petri
      * @param transicion  -> la transición a disparar
-     * @return retorna true si la transición se disparo, false en caso contrario
      */
-    public boolean disparo (String transicion)
-    {
-        boolean tmp = puedeDispararse(transicion);
-        if (tmp)
-        {
-            for (int i = 0; i < listaPlazas.size(); i++)
-            {
-                marcado [i] = marcado [i] + matrizDeIncidencia [i] [listaTransiciones.indexOf(transicion)];
-            }
-        actualizarSensibilizadas();
-        }
-        return tmp;
-    }
-    
-    public void disparo2 (String transicion)
+    public void disparo (String transicion)
     {
          for (int i = 0; i < listaPlazas.size(); i++)
-            {
-                marcado [i] = marcado [i] + matrizDeIncidencia [i] [listaTransiciones.indexOf(transicion)];
-            }
-        actualizarSensibilizadas2();
+         {
+            marcado [i] = marcado [i] + matrizDeIncidencia [i] [listaTransiciones.indexOf(transicion)];
+         }
+        actualizarSensibilizadas();
     }
     
     /**
@@ -124,21 +106,6 @@ public class PetriNet
      * @return ArrayList de Transiciones
      */
     public ArrayList<String> estanSensibilizadas()
-    {
-        ArrayList<String> listaAuxiliar = new ArrayList<>();
-        ArrayList<String> aux = new ArrayList<>(listaSensibilizadas.keySet());
-        for (String tmp : aux)
-        {
-            if (listaSensibilizadas.get(tmp))
-            {
-                listaAuxiliar.add(tmp);
-            }
-        }
-        
-        Collections.sort(listaAuxiliar);
-        return listaAuxiliar;
-    }
-    public ArrayList<String> estanSensibilizadas2()
     {
         ArrayList<String> listaAuxiliar = new ArrayList<>();
         for (int i = 0; i < listaTransiciones.size(); i++)
@@ -156,25 +123,6 @@ public class PetriNet
      * de transiciones disponibles para disparo.
      */
     private void actualizarSensibilizadas ()
-    {
-        for (String clave : listaTransiciones)
-        {
-            listaSensibilizadas.replace(clave, Boolean.TRUE);
-        }
-        for (int i = 0; i < listaTransiciones.size(); i++)
-        {
-            for (int j = 0; j < listaPlazas.size(); j++)
-            {
-                if (marcado [j] == 0 && matrizDeIncidencia [j] [i] == -1)
-                {
-                    listaSensibilizadas.replace(listaTransiciones.get(i), Boolean.FALSE);
-                    break;
-                }
-            }
-        }
-    }
-    
-    private void actualizarSensibilizadas2 ()
     {
         /*
         for (int i = 0; i < listaTransiciones.size() ; i++)
@@ -204,12 +152,7 @@ public class PetriNet
      * @param transicion
      * @return 
      */
-    private boolean puedeDispararse(String transicion)
-    {
-        return (boolean)(listaSensibilizadas.get(transicion));
-    }
-    
-    public boolean puedeDispararse2(String transicion)
+    public boolean puedeDispararse(String transicion)
     {
         if (listaTransiciones.contains(transicion))
         {

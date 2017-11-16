@@ -33,7 +33,7 @@ public class main {
         String path4 = "MatrizSensibilizadas.csv";
         String path5 = "DetallesDeTransiciones.csv";
         String path6 = "DetallesDePlazas.csv";
-        String path7 = "Hilos.csv";
+        String path7 = "Hilos2.csv";
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         buff.append(filePath);
@@ -69,14 +69,14 @@ public class main {
         */
         
         Monitor monitor = new Monitor (path2
-                , plazas.getKeys(), transiciones.getKeys()
-                , path3
-                , path4);
+                                            , plazas.getKeys(), transiciones.getKeys()
+                                            , path3
+                                            , path4);
 
         ArrayList<Thread> hilos = new ArrayList<>();
         BufferedReader br = null;
         br = new BufferedReader(new FileReader(path7));
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 18; i++)
         {
             String line  = br.readLine();
             String[] items = line.split(",");
@@ -98,6 +98,15 @@ public class main {
         Thread thread6 = hilos.get(6);
         Thread thread7 = hilos.get(7);
         Thread thread8 = hilos.get(8);
+        Thread thread9 = hilos.get(9);
+        Thread thread10 = hilos.get(10);
+        Thread thread11 = hilos.get(11);
+        Thread thread12 = hilos.get(12);
+        Thread thread13 = hilos.get(13);
+        Thread thread14 = hilos.get(14);
+        Thread thread15= hilos.get(15);
+        Thread thread16= hilos.get(16);
+        Thread thread17= hilos.get(17);
 
         thread0.start();
         thread1.start();
@@ -108,6 +117,15 @@ public class main {
         thread6.start();
         thread7.start();
         thread8.start();
+        thread9.start();
+        thread10.start();
+        thread11.start();
+        thread12.start();
+        thread13.start();
+        thread14.start();
+        thread15.start();
+        thread16.start();
+        thread17.start();
        
         
         
