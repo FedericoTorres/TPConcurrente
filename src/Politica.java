@@ -45,13 +45,8 @@ public class Politica
         if (politicaActual.containsKey(transicion)) //testear
         {
             contador.replace (transicion, this.getNumero(transicion, contador) + 1);
-        }       
-                
-    }
-    
-    public String cualDisparar (ArrayList<String> obj)
-    {
-        ArrayList <String> aux = new ArrayList<>();
+        }
+         ArrayList <String> aux = new ArrayList<>();
         //Meter en la lista aux las transiciones que ya estan en su limite
         //y ya no se pueden disparar
         for (String clave : politicaActual.keySet())
@@ -71,27 +66,37 @@ public class Politica
             {
                 this.vaciarContador();
             }
-            //Si no tiene las 3 transiciones, remover de la lista entrante
-            //aquellas transiciones que coincidan con la lista de transiciones
-            //prohibidas
-            else
-            {
-                obj.removeAll(aux);
-            }
-            
-            //continuar------------
         }
-      /*   La lista esta vacia, es decir se puede disparar cualquier transicion
-        que la política no tiene drama en disparar cualquiera -->
-        OR la lista fue limpiada y se puede ejecutar cualquiera -->
-        OR de lista fueron eliminadas transiciones prohibidas y se puede
-        ejecutar cualquiera de las que quedan
-        
-
-        */
+                
+    }
+    
+    public ArrayList<String> cualDisparar (ArrayList<String> obj)
+    {
+        ArrayList <String> aux = this.getInvalidas();
+        if (!aux.isEmpty())
+        {
+            obj.removeAll(aux);        
+        }
+        return obj; 
     }
    
     
+    
+    private ArrayList<String> getInvalidas ()
+    {
+        ArrayList <String> aux = new ArrayList<>();
+        //Meter en la lista aux las transiciones que ya estan en su limite
+        //y ya no se pueden disparar
+        for (String clave : politicaActual.keySet())
+        {
+           if (getNumero(clave, contador) == getNumero(clave,politicaActual))
+           {
+               aux.add(clave);
+           }
+        }
+        return aux;
+            
+    }
     
     private int getNumero (String transicion, HashMap<String,Integer> obj)
     {

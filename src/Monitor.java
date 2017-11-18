@@ -26,6 +26,7 @@ import java.util.Arrays;
 public class Monitor 
 {
     private Queues colas;
+    private Politica politica;
     private PetriNet pn;
     private Semaphore mutex;
     private boolean k;
@@ -48,6 +49,7 @@ public class Monitor
         colas = new Queues (pn.getListaTransiciones());
         mutex = new Semaphore(1,true);
         k = false;
+        politica  = new Politica (1);
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         String path = "/src/datos/log_prueba.txt";
@@ -81,7 +83,6 @@ public class Monitor
             Logger.getLogger(Monitor.class.getName()).log(Level.SEVERE, null, ex);
         }
         k = true;
-        boolean seDisparo = false;
         while(k)
         {
             
@@ -89,6 +90,7 @@ public class Monitor
             if(pn.puedeDispararse(transicion))
             {
                 pn.disparo(transicion);
+                politica.registrarDisparo(transicion);
                 marcados.println(Arrays.toString(pn.getMarcado()));
                 ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
                 ArrayList<String> esperando = colas.getEsperando();
@@ -105,19 +107,28 @@ public class Monitor
                 }
                 else
                 {
-                    int numAleatorio;
-                    if (sensibilizadas.size() > 1)
+                    sensibilizadas = politica.cualDisparar(sensibilizadas);
+                    if (sensibilizadas.isEmpty())
                     {
-                        numAleatorio = (int) (Math.random() * sensibilizadas.size());
-
+                        k = false;
                     }
                     else
                     {
-                        numAleatorio = 0;
+                        
+                    
+                        int numAleatorio;
+                        if (sensibilizadas.size() > 1)
+                        {
+                            numAleatorio = (int) (Math.random() * sensibilizadas.size());
+
+                        }
+                        else
+                        {
+                            numAleatorio = 0;
+                        }
+                        colas.releaseTransition(sensibilizadas.get(numAleatorio));
+                        return;
                     }
-                    colas.releaseTransition(sensibilizadas.get(numAleatorio));
-                    return;
-     
                 }
             }
             else
