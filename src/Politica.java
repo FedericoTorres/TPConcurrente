@@ -70,10 +70,10 @@ public class Politica
             contador.replace (transicion, this.getNumero(transicion, contador) + 1);
             contador.replace ("TOTAL", this.getNumero("TOTAL", contador) + 1);         
             
-            logPiezas.println("Linea 1: " + getNumero("T19", contador) + "piezas.");
-            logPiezas.println("Linea 2: " + getNumero("T24", contador) + "piezas.");
-            logPiezas.println("Linea 3: " + getNumero("T36", contador) + "piezas.");
-            logPiezas.println("TOTAL: " + getNumero("TOTAL", contador) + "piezas.");
+            logPiezas.println("Linea 1: " + getNumero("T19", contador) + " piezas.");
+            logPiezas.println("Linea 2: " + getNumero("T24", contador) + " piezas.");
+            logPiezas.println("Linea 3: " + getNumero("T36", contador) + " piezas.");
+            logPiezas.println("TOTAL: " + getNumero("TOTAL", contador) + " piezas.");
         }
         ArrayList <String> aux = new ArrayList<>();
         //Meter en la lista aux las transiciones que ya estan en su limite
@@ -111,7 +111,7 @@ public class Politica
    
     
     
-    private ArrayList<String> getInvalidas ()
+    public ArrayList<String> getInvalidas ()
     {
         ArrayList <String> aux = new ArrayList<>();
         //Meter en la lista aux las transiciones que ya estan en su limite

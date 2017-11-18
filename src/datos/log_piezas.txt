@@ -1,0 +1,8 @@
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 1 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 2 piezas.

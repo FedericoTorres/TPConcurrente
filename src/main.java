@@ -72,7 +72,7 @@ public class main {
         ArrayList<Thread> hilos = new ArrayList<>();
         BufferedReader br = null;
         br = new BufferedReader(new FileReader(path7));
-        for (int i = 0; i < 18; i++)
+        for (int i = 0; i < 9; i++)
         {
             String line  = br.readLine();
             String[] items = line.split(",");

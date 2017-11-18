@@ -87,7 +87,7 @@ public class Monitor
         {
             
             
-            if(pn.puedeDispararse(transicion))
+            if(pn.puedeDispararse(transicion) && !politica.getInvalidas().contains(transicion))
             {
                 pn.disparo(transicion);
                 politica.registrarDisparo(transicion);
