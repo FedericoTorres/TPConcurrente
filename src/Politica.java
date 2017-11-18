@@ -1,4 +1,8 @@
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -16,11 +20,30 @@ public class Politica
 {
     HashMap <String, Integer> politicaActual;
     HashMap <String, Integer> contador;
+    private PrintStream logPiezas;
     
     public Politica (int eleccion)
     {
         politicaActual = new HashMap<>();
         contador = new HashMap<>();
+        
+        StringBuffer buff = new StringBuffer();
+        String filePath = new File("").getAbsolutePath();
+        String path = "/src/datos/log_piezas.txt";
+        buff.append(filePath);
+        buff.append(path);
+        path = buff.toString();
+        buff.delete(filePath.length(), buff.length());
+        
+        try 
+        {
+            logPiezas = new PrintStream(new FileOutputStream(path));
+        } catch (FileNotFoundException e) 
+        {
+			// TODO Auto-generated catch block
+            e.printStackTrace();
+	}
+        
         if  (eleccion == 1)
         {
             politicaActual.put ("T19", 1);
@@ -45,8 +68,14 @@ public class Politica
         if (politicaActual.containsKey(transicion)) //testear
         {
             contador.replace (transicion, this.getNumero(transicion, contador) + 1);
+            contador.replace ("TOTAL", this.getNumero("TOTAL", contador) + 1);         
+            
+            logPiezas.println("Linea 1: " + getNumero("T19", contador) + "piezas.");
+            logPiezas.println("Linea 2: " + getNumero("T24", contador) + "piezas.");
+            logPiezas.println("Linea 3: " + getNumero("T36", contador) + "piezas.");
+            logPiezas.println("TOTAL: " + getNumero("TOTAL", contador) + "piezas.");
         }
-         ArrayList <String> aux = new ArrayList<>();
+        ArrayList <String> aux = new ArrayList<>();
         //Meter en la lista aux las transiciones que ya estan en su limite
         //y ya no se pueden disparar
         for (String clave : politicaActual.keySet())
