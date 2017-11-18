@@ -2,7 +2,119 @@ Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 1 piezas.
-Linea 1: 0 piezas.
-Linea 2: 2 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 2 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 3 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 4 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 5 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 6 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 7 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 8 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 9 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 10 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 11 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 12 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 13 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 14 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 15 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 16 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 17 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 18 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 19 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 20 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 21 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 22 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 23 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 24 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 25 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 26 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 27 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 28 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 29 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 30 piezas.

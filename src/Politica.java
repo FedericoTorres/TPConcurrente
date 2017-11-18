@@ -46,19 +46,19 @@ public class Politica
         
         if  (eleccion == 1)
         {
-            politicaActual.put ("T19", 1);
-            politicaActual.put ("T24", 2);
-            politicaActual.put ("T36", 1);
+            politicaActual.put ("T10", 1);
+            politicaActual.put ("T21", 2);
+            politicaActual.put ("T31", 1);
         }
         else
         {
-            politicaActual.put ("T19", 3);
-            politicaActual.put ("T24", 2);
-            politicaActual.put ("T36", 1);
+            politicaActual.put ("T10", 3);
+            politicaActual.put ("T21", 2);
+            politicaActual.put ("T31", 1);
         }
-        contador.put ("T19", 0);
-        contador.put ("T24", 0);
-        contador.put ("T36", 0);
+        contador.put ("T10", 0);
+        contador.put ("T21", 0);
+        contador.put ("T31", 0);
         contador.put ("TOTAL", 0);
     }
     
@@ -70,9 +70,9 @@ public class Politica
             contador.replace (transicion, this.getNumero(transicion, contador) + 1);
             contador.replace ("TOTAL", this.getNumero("TOTAL", contador) + 1);         
             
-            logPiezas.println("Linea 1: " + getNumero("T19", contador) + " piezas.");
-            logPiezas.println("Linea 2: " + getNumero("T24", contador) + " piezas.");
-            logPiezas.println("Linea 3: " + getNumero("T36", contador) + " piezas.");
+            logPiezas.println("Linea 1: " + getNumero("T10", contador) + " piezas.");
+            logPiezas.println("Linea 2: " + getNumero("T21", contador) + " piezas.");
+            logPiezas.println("Linea 3: " + getNumero("T31", contador) + " piezas.");
             logPiezas.println("TOTAL: " + getNumero("TOTAL", contador) + " piezas.");
         }
         ArrayList <String> aux = new ArrayList<>();
