@@ -100,7 +100,7 @@ public class Politica
     
     private int getNumero (String transicion, HashMap<String,Integer> obj)
     {
-        return contador.get(transicion);
+        return obj.get(transicion);
     }
     
     private void vaciarContador ()
