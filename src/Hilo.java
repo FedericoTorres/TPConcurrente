@@ -1,7 +1,5 @@
 
-import java.io.BufferedReader;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -30,9 +28,6 @@ public class Hilo implements Runnable
         Collections.sort(transicionesADisparar);
         transicionesADisparar.retainAll(filtro);
         System.out.println(transicionesADisparar);
-
-       
-
     }
     
 
