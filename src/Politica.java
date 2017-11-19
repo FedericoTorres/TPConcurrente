@@ -20,12 +20,14 @@ public class Politica
 {
     HashMap <String, Integer> politicaActual;
     HashMap <String, Integer> contador;
+    HashMap <String, Integer> contadorFinal;
     private PrintStream logPiezas;
     
     public Politica (int eleccion)
     {
         politicaActual = new HashMap<>();
         contador = new HashMap<>();
+        contadorFinal = new HashMap<>();
         
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
@@ -60,6 +62,9 @@ public class Politica
         contador.put ("T21", 0);
         contador.put ("T31", 0);
         contador.put ("TOTAL", 0);
+        contadorFinal.put ("T19", 0);
+        contadorFinal.put ("T24", 0);
+        contadorFinal.put ("T36", 0);
     }
     
     
@@ -75,6 +80,14 @@ public class Politica
             logPiezas.println("Linea 3: " + getNumero("T31", contador) + " piezas.");
             logPiezas.println("TOTAL: " + getNumero("TOTAL", contador) + " piezas.");
         }
+        if (contadorFinal.containsKey(transicion))
+        {
+            contadorFinal.replace(transicion, contadorFinal.get(transicion) + 1);
+            logPiezas.println("Final Linea 1: " + getNumero("T19", contadorFinal) + " piezas.");
+            logPiezas.println("Final Linea 2: " + getNumero("T24", contadorFinal) + " piezas.");
+            logPiezas.println("Final Linea 3: " + getNumero("T36", contadorFinal) + " piezas.");
+        }
+            
         ArrayList <String> aux = new ArrayList<>();
         //Meter en la lista aux las transiciones que ya estan en su limite
         //y ya no se pueden disparar
