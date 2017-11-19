@@ -49,7 +49,7 @@ public class Monitor
         colas = new Queues (pn.getListaTransiciones());
         mutex = new Semaphore(1,true);
         k = false;
-        politica  = new Politica (1);
+        politica  = new Politica (2);
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         String path = "/src/datos/log_prueba.txt";
