@@ -61,16 +61,11 @@ public class main {
 
         
         
-        PlazaAEstado plazas = new PlazaAEstado(path6);
+        PlazaAEstado plazas;
+        plazas = instanciarPlazaAEstado();
         System.out.println("---------------------");
-        TransicionAEvento transiciones = new TransicionAEvento(path5);
-        
-        /*
-        PetriNet red = new PetriNet(path2
-                                    , plazas.getKeys(), transiciones.getKeys()
-                                    , path3
-                                    , path4);
-        */
+        TransicionAEvento transiciones = instranciarTransicionAEvento();
+       
         
         Monitor monitor = new Monitor (path2, plazas.getKeys(),
                                         transiciones.getKeys(), 
@@ -95,8 +90,35 @@ public class main {
         {
             aux.start();
         }
-        //ola k ase
-
+    }
+    
+    
+    public Monitor instanciarMonitor()
+    {
+        String path1 = "/src/datos/";
+        return null;
+    }
+    
+    public static PlazaAEstado instanciarPlazaAEstado() throws IOException
+    {
+        String path1 = "/src/datos/DetallesDePlazas.csv";
+        StringBuffer buff = new StringBuffer();
+        String filePath = new File("").getAbsolutePath();
+        buff.append(filePath);
+        buff.append(path1);
+        path1 = buff.toString();
+        return new PlazaAEstado(path1);
+    }
+    
+    public static TransicionAEvento instranciarTransicionAEvento () throws IOException
+    {
+        String path1 = "/src/datos/DetallesDeTransiciones.csv";
+        StringBuffer buff = new StringBuffer();
+        String filePath = new File("").getAbsolutePath();
+        buff.append(filePath);
+        buff.append(path1);
+        path1 = buff.toString();
+        return new TransicionAEvento(path1);
     }
     
 }
