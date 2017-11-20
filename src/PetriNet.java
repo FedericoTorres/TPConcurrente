@@ -87,6 +87,7 @@ public class PetriNet
             sensibilizadas [i] = Boolean.parseBoolean(items [i]);
         }
         System.out.println (Arrays.toString(sensibilizadas));
+        this.actualizarSensibilizadas();
       
     }
         
