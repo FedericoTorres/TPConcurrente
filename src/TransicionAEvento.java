@@ -17,7 +17,7 @@ import java.util.Set;
  */
 public class TransicionAEvento 
 {
-     private HashMap<String,String> mapaTransiciones;
+    private HashMap<String,String> mapaTransiciones;
     
     
     public TransicionAEvento(String file) throws IOException
@@ -52,7 +52,6 @@ public class TransicionAEvento
     {
         return mapaTransiciones.get(transicion);
     }
-    
     
     public Set getKeys()
     {

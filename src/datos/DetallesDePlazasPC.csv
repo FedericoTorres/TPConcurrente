@@ -1,0 +1,8 @@
+Inicia Produccion,P0
+Produciendo,P1
+Finaliza Produccion,P2
+Inicia Consumo,P3
+Consumiendo,P4
+Finaliza Consumo,P5
+Buffer de Produccion,P6
+Capacidad buffer,p7
