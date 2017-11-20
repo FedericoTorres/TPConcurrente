@@ -33,6 +33,7 @@ public class main {
         String path5 = "DetallesDeTransiciones.csv";
         String path6 = "DetallesDePlazas.csv";
         String path7 = "Hilos2.csv";
+        String path8 = "tiempos.csv";
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         buff.append(filePath);
@@ -54,7 +55,11 @@ public class main {
         buff.delete((filePath.length() + path1.length()), buff.length());
         buff.append(path7);
         path7 = buff.toString();
+        buff.delete((filePath.length() + path1.length()), buff.length());
+        buff.append(path8);
+        path8 = buff.toString();
 
+        
         
         PlazaAEstado plazas = new PlazaAEstado(path6);
         System.out.println("---------------------");
@@ -68,7 +73,8 @@ public class main {
         */
         
         Monitor monitor = new Monitor (path2, plazas.getKeys(),
-                                        transiciones.getKeys(), path3, path4);
+                                        transiciones.getKeys(), 
+                                        path3, path4, path8);
         ArrayList<Thread> hilos = new ArrayList<>();
         BufferedReader br = null;
         br = new BufferedReader(new FileReader(path7));

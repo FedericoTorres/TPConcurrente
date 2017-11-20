@@ -27,10 +27,13 @@ public class PetriNet
     private ArrayList<String> listaPlazas;
     private ArrayList<String> listaTransiciones;
     private boolean sensibilizadas [];
+    private Tiempo tiempo;
     
     public PetriNet(String matrizFile, Set plazas, Set transiciones, 
-                    String marcadoInicialFile, String sensibilizadasFile) throws FileNotFoundException, IOException
+                    String marcadoInicialFile, String sensibilizadasFile,
+                    String tiemposFile) throws FileNotFoundException, IOException
     {
+        tiempo = new Tiempo(tiemposFile);
         BufferedReader br = null;
         br = new BufferedReader(new FileReader(matrizFile));
         String line  = br.readLine();

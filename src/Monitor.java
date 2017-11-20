@@ -42,10 +42,12 @@ public class Monitor
     }
     
     public Monitor (String matrizFile, Set plazas, Set transiciones, 
-                    String marcadoInicialFile, String sensibilizadasFile) throws IOException
+                    String marcadoInicialFile, String sensibilizadasFile,
+                    String tiemposFile) throws IOException
     {
         pn = new PetriNet(matrizFile, plazas, transiciones, 
-                    marcadoInicialFile, sensibilizadasFile);
+                    marcadoInicialFile, sensibilizadasFile,
+                    tiemposFile);
         colas = new Queues (pn.getListaTransiciones());
         mutex = new Semaphore(1,true);
         k = false;
