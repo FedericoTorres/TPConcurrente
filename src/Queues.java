@@ -24,6 +24,11 @@ public class Queues
             colas.put(transicion, new SemaforoC());
     }
     
+    /**
+     *  Método que permite realizar un acquire de un
+     * semáforo asociado a la transición que se pasa como parámetro.
+     * @param transicion
+     */
     public void acquireTransition(String transicion)
     {
         try
@@ -38,12 +43,23 @@ public class Queues
         }
     }
     
+    /**
+     * Función que realiza el release de el semáforo asociado
+     * a la transición ingresada como parámetro
+     * @param transicion 
+     */
     public void releaseTransition(String transicion)
     {  
         colas.get(transicion).releaseSemaphore();
         colas.get(transicion).release();
     }
     
+    /**
+     * Método que se encarga de registrar los semáforos
+     * de cada transición y registrar en una lista aquellas transiciones que 
+     * posean a alguien esperando en la misma.
+     * @return Lista de String Transiciones
+     */
     public ArrayList<String> getEsperando()
     {
         ArrayList<String> listaEsperando = new ArrayList<String>();
