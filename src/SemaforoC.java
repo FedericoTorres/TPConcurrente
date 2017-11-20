@@ -22,7 +22,8 @@ public class SemaforoC extends Semaphore
     
     /**
      * 
-     * 
+     * Método que devuelva la cantidad de hilos que realizaron
+     * un acquire de el semáforo
      * @return cantidad de hilos en esa cola
      */ 
     public synchronized int getLength()
