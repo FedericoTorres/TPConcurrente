@@ -163,7 +163,7 @@ public class PetriNet
         
     /**
      * Función que corrobora si una transición puede dispararse
-     * comprobando el HashMap de transiciones disparables.
+     * comprobando el HashMap de transiciones disparables.asd
      * @param transicion
      * @return 
      */
