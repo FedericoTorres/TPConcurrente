@@ -29,6 +29,7 @@ public class Tiempo
         timestamps = new long[20];
         quienEspera = new long[20];
         Arrays.fill(timestamps, 0);
+        Arrays.fill(quienEspera,-1);
 
         
         
@@ -123,8 +124,8 @@ public class Tiempo
     
     public long cuantoFaltaAVentana(int transicion)
     {
-        return alfaBeta [0] [transicion] - System.currentTimeMillis() - 
-                timestamps [transicion];
+        return alfaBeta [0] [transicion] - (System.currentTimeMillis() - 
+                timestamps [transicion]);
     }
     
 }

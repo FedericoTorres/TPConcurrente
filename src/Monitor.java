@@ -153,12 +153,13 @@ public class Monitor
                         pn.hiloAEsperar(transicion);
                         long tiempoHasta = pn.cuantoFaltaAVentana(transicion);
                         archivito.println(Thread.currentThread().getId() + "\t\tADormirPor:" + tiempoHasta 
-                                            + " ms\t\t\t" + "Antes de Ventana"
+                                            + " ms\t\t\t" +  transicion + "\t\t\tAntes de Ventana"
                                 + " y nadie espera");
                         mutex.release();
                         try 
                         {
                             Thread.sleep(tiempoHasta);
+                             pn.hiloSalirEspera(transicion);
                             mutex.acquire();
                         } 
                         catch (InterruptedException ex) 
