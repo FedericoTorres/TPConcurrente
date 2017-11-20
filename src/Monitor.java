@@ -91,46 +91,99 @@ public class Monitor
             
             if(pn.puedeDispararse(transicion) && !politica.getInvalidas().contains(transicion))
             {
-                pn.disparo(transicion);
-                politica.registrarDisparo(transicion);
-                marcados.println(Arrays.toString(pn.getMarcado()));
-                ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
-                ArrayList<String> esperando = colas.getEsperando();
-                archivito.println(Thread.currentThread().getId()+"\t\tDisparando\t\t\t"+ transicion + 
-                                    "\t\t\t" + esperando + "\t\t\t" + sensibilizadas );
-
-               // System.out.println(transicion);
-              //  System.out.println(sensibilizadas);
-                sensibilizadas.retainAll(esperando);
-                //System.out.println("En el mutex de la cola esta" + sensibilizadas);
-                if(sensibilizadas.isEmpty())
+                if (pn.testVentanaTiempo(transicion))
                 {
-                    k = false;
+                    if (pn.hiloAlguienEspera(transicion))
+                    {
+                        pn.disparo(transicion);
+                        politica.registrarDisparo(transicion);
+                        marcados.println(Arrays.toString(pn.getMarcado()));
+                        ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
+                        ArrayList<String> esperando = colas.getEsperando();
+                        archivito.println(Thread.currentThread().getId() + "\t\tDisparando\t\t\t" + transicion
+                                + "\t\t\t" + esperando + "\t\t\t" + sensibilizadas);
+
+                        // System.out.println(transicion);
+                        //  System.out.println(sensibilizadas);
+                        sensibilizadas.retainAll(esperando);
+                        //System.out.println("En el mutex de la cola esta" + sensibilizadas);
+                        if (sensibilizadas.isEmpty()) 
+                        {
+                            k = false;
+                        } 
+                        else 
+                        {
+                            sensibilizadas = politica.cualDisparar(sensibilizadas);
+                            if (sensibilizadas.isEmpty()) 
+                            {
+                                k = false;
+                            } 
+                            else 
+                            {
+                                int numAleatorio;
+                                if (sensibilizadas.size() > 1) 
+                                {
+                                    numAleatorio = (int) (Math.random() * sensibilizadas.size());
+
+                                } 
+                                else 
+                                {
+                                    numAleatorio = 0;
+                                }
+                                colas.releaseTransition(sensibilizadas.get(numAleatorio));
+                                return;
+                            }
+                        }  
+                    }
+                    /** Un hilo se encuentra esperando 
+                     * 
+                     */
+                    else
+                    {
+                        archivito.println(Thread.currentThread().getId()+"\t\tBloqueado\t\t\t" + transicion +
+                                            "DentroDeLaVentana Y Otro Hilo Espera");
+                        colas.acquireTransition(transicion);
+                        mutex.release();
+                    }
+                }
+                else if (pn.antesDeLaVentana(transicion))
+                {
+                    if (pn.hiloAlguienEspera(transicion))
+                    {
+                        pn.hiloAEsperar(transicion);
+                        long tiempoHasta = pn.cuantoFaltaAVentana(transicion);
+                        archivito.println(Thread.currentThread().getId() + "\t\tADormirPor:" + tiempoHasta 
+                                            + " ms\t\t\t" + "Antes de Ventana"
+                                + " y nadie espera");
+                        mutex.release();
+                        try 
+                        {
+                            Thread.sleep(tiempoHasta);
+                            mutex.acquire();
+                        } 
+                        catch (InterruptedException ex) 
+                        {
+                            Logger.getLogger(Monitor.class.getName()).log(Level.SEVERE, null, ex);
+                        }
+                       k = true;
+                    }
+                    /** Antes de la ventana y alguien espera
+                     * 
+                     */
+                    else
+                    {
+                        archivito.println(Thread.currentThread().getId() + "\t\tBloqueado\t\t\t"
+                                            + transicion + "\t\tAntes de Ventana y alguien espera");
+                        mutex.release();
+                        colas.acquireTransition(transicion);     
+                    }
                 }
                 else
                 {
-                    sensibilizadas = politica.cualDisparar(sensibilizadas);
-                    if (sensibilizadas.isEmpty())
-                    {
-                        k = false;
-                    }
-                    else
-                    {
-                        
-                    
-                        int numAleatorio;
-                        if (sensibilizadas.size() > 1)
-                        {
-                            numAleatorio = (int) (Math.random() * sensibilizadas.size());
-
-                        }
-                        else
-                        {
-                            numAleatorio = 0;
-                        }
-                        colas.releaseTransition(sensibilizadas.get(numAleatorio));
-                        return;
-                    }
+                    archivito.println(Thread.currentThread().getId() + "\t\tBloqueado\t\t\t" +
+                                        transicion + "\t\tDespues de la ventana");
+                    mutex.release();
+                    colas.acquireTransition(transicion); 
                 }
             }
             else

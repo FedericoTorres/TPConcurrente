@@ -105,6 +105,31 @@ public class PetriNet
     }
     
     /**
+     * Método que se encarga de determinar  si una transicion se encuentra
+     * dentro de la ventana de tiempo
+     * @param transicion
+     * @return TRUE si pasa la ventana de tiempo, FALSE sino pasa la ventana
+     * de tiempo
+     */
+    public boolean testVentanaTiempo (String transicion)
+    {
+        return tiempo.testVentanaTiempo(this.getIndexOfTransition(transicion));
+    }
+    
+    /**
+     * Método que se encarga de determinar si una transición se encuentra
+     * antes de ventana de tiempo
+     * @param transicion
+     * @return TRUE si la transicion se encuentra antes de la ventana
+     * FALSE si no está antes de la ventana
+     */
+    public boolean antesDeLaVentana (String transicion)
+    {
+        return tiempo.antesDeLaVentana(this.getIndexOfTransition(transicion));
+    }
+    
+    
+    /**
      * Método que devuelve todas las transiciones en condiciones de disparo
      * @return ArrayList de Transiciones
      */
@@ -143,8 +168,18 @@ public class PetriNet
                 else
                     res = res && false;
             }
-            sensibilizadas [i] = res;
-                    
+            sensibilizadas[i] = res;
+            if (res)
+            {
+                if (tiempo.getTimestamp(i) == 0)
+                {
+                    tiempo.setNuevoTimestamp(i, res);
+                }
+            }
+            else
+            {
+                tiempo.setNuevoTimestamp(i, res);
+            }               
         }
     }
     
@@ -167,6 +202,54 @@ public class PetriNet
         }
     }
     
+    /**
+     * Método utilizado para traducir el nombre de una transicion
+     * a un entero, que hace de índice para los vectores
+     * utilizados en la clase Tiempo
+     * @param transicion
+     * @return entero que es el índice de la transicion
+     */
+    public int getIndexOfTransition (String transicion)
+    {
+        return listaTransiciones.indexOf(transicion);
+    }
+    
+    /**
+     * Método que se encarga de interfacear con el mismo método que
+     * posee la clase tiempo
+     * @param transicion 
+     */
+    public void hiloAEsperar (String transicion)
+    {
+        this.tiempo.hiloAEsperar(getIndexOfTransition(transicion));
+    }
+    
+    /**
+     * Método que se encarga de interfacear con el mismo método que
+     * posee la clase tiempo y que saca de de la espera a una transición
+     * @param transicion 
+     */
+    public void hiloSalirEspera (String transicion)
+    {
+        this.tiempo.hiloSalirEspera(getIndexOfTransition(transicion));
+    }
+    
+    public long cuantoFaltaAVentana (String transicion)
+    {
+        return this.tiempo.cuantoFaltaAVentana(getIndexOfTransition(transicion));
+    }
+    
+    /**
+     * Método que se encarga de interfacear con el mismo método que
+     * que posee la clase tiempo
+     * @param transicion
+     * @return TRUE si ningún HILO esta en espera FALSE si alguien
+     * que no soy HILO ACTUAL espera
+     */
+    public boolean hiloAlguienEspera (String transicion)
+    {
+        return this.tiempo.hiloAlguienEspera(getIndexOfTransition(transicion));
+    }
     
     
     public ArrayList<String> getListaTransiciones()
