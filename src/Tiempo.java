@@ -52,4 +52,36 @@ public class Tiempo
             System.out.println("\n");
         }
     }
+    
+    public boolean testVentanaTiempo (int transicion)
+    {
+        long ahora = System.currentTimeMillis ();
+        if (ahora - timestamps [transicion] >= alfa_beta [0] [transicion]
+            && ahora - timestamps [transicion] < alfa_beta [1] [transicion])
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+    public void setNuevoTimestamp (int transicion)
+    {
+        timestamps [transicion] = System.currentTimeMillis ();
+    }
+    
+    public boolean antesDeLaVentana (int transicion)
+    {
+        long ahora = System.currentTimeMillis ();
+        if (ahora - timestamps [transicion] < alfa_beta [0] [transicion])
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
