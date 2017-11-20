@@ -52,7 +52,7 @@ public class Politica
             politicaActual.put ("T21", 2);
             politicaActual.put ("T31", 1);
         }
-        else
+        else if (eleccion == 2)
         {
             politicaActual.put ("T10", 3);
             politicaActual.put ("T21", 2);
@@ -67,7 +67,12 @@ public class Politica
         contadorFinal.put ("T36", 0);
     }
     
-    
+    /**
+     * Método que registra el disparo realizado por la red de petri
+     * se encarga de aumentar los contadores correspondientes
+     * a cada transición y a si ya se cumplió un ciclo los resetea.
+     * @param transicion 
+     */
     public void registrarDisparo (String transicion)
     {
         if (politicaActual.containsKey(transicion)) //testear
@@ -112,6 +117,14 @@ public class Politica
                 
     }
     
+    /**
+     * Función que recibe como parámetro la lista de transiciones que están
+     * esperando y sensibilizadas. La función elimina de la lista
+     * aquellas transiciones que la política decida que son ilegales de
+     * disparar
+     * @param obj
+     * @return Lista con las transiciones que pueden dispararse
+     */
     public ArrayList<String> cualDisparar (ArrayList<String> obj)
     {
         ArrayList <String> aux = this.getInvalidas();
@@ -124,6 +137,12 @@ public class Politica
    
     
     
+   /**
+    * Método que agrega en una lista las transiciones incapaces de disparar
+    * según la política elegida.
+    * @return Lista que posee todas las transiciones que según la política
+    * no pueden dispararse
+    */
     public ArrayList<String> getInvalidas ()
     {
         ArrayList <String> aux = new ArrayList<>();
@@ -140,11 +159,22 @@ public class Politica
             
     }
     
+    /**
+     * Función privada que obtiene el value del HashMap ingresado relacionado
+     * con la transicion.
+     * @param transicion Key del HashMap del quiere obtenerse el value
+     * @param obj HashMap del cual se va a extraer el value relacionado a
+     * transicion.
+     * @return Un entero que es el value de la Key transición del Hashmap obj.
+     */
     private int getNumero (String transicion, HashMap<String,Integer> obj)
     {
         return obj.get(transicion);
     }
     
+    /**
+     * Función privada que resetea el contador de cada pieza
+     */
     private void vaciarContador ()
     {
         for (String clave : politicaActual.keySet())
