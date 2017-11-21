@@ -66,12 +66,14 @@ public class Monitor
         {
             archivito= new PrintStream(new FileOutputStream(path));
             marcados = new PrintStream(new FileOutputStream(path2));
-            marcados.println("Marcados");
         } catch (FileNotFoundException e) 
         {
 			// TODO Auto-generated catch block
             e.printStackTrace();
 	}
+        archivito.println("\t\tTiempo\t\tID\t\tDescripción\t\tTransicion\t\t"
+                + "EnSemaforos\t\tSensibilizadas");
+        archivito.println("");
     }
     
     public void dispararTransicion(String transicion)
@@ -100,7 +102,8 @@ public class Monitor
                         marcados.println(Arrays.toString(pn.getMarcado()));
                         ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
                         ArrayList<String> esperando = colas.getEsperando();
-                        archivito.println(Thread.currentThread().getId() + "\t\tDisparando\t\t\t" + transicion
+                        archivito.println(System.currentTimeMillis()+ "\t\t" +Thread.currentThread().getId() +
+                                "\t\tDisparando\t\t\t" + transicion
                                 + "\t\t\t" + esperando + "\t\t\t" + sensibilizadas);
 
                         // System.out.println(transicion);
@@ -140,7 +143,8 @@ public class Monitor
                      */
                     else
                     {
-                        archivito.println(Thread.currentThread().getId()+"\t\tBloqueado\t\t\t" + transicion +
+                        archivito.println(System.currentTimeMillis() + "\t\t" + 
+                                Thread.currentThread().getId()+"\t\tBloqueado\t\t\t" + transicion +
                                             "DentroDeLaVentana Y Otro Hilo Espera");
                         colas.acquireTransition(transicion);
                         mutex.release();
@@ -152,8 +156,9 @@ public class Monitor
                     {
                         pn.hiloAEsperar(transicion);
                         long tiempoHasta = pn.cuantoFaltaAVentana(transicion);
-                        archivito.println(Thread.currentThread().getId() + "\t\tADormirPor:" + tiempoHasta 
-                                            + " ms\t\t\t" +  transicion + "\t\t\tAntes de Ventana"
+                        archivito.println(System.currentTimeMillis() + "\t\t" + 
+                                Thread.currentThread().getId() + "\t\tDurmiendo:" + tiempoHasta 
+                                            + "ms\t\t" +  transicion + "\t\t\tAntes de Ventana"
                                 + " y nadie espera");
                         mutex.release();
                         try 
@@ -173,15 +178,17 @@ public class Monitor
                      */
                     else
                     {
-                        archivito.println(Thread.currentThread().getId() + "\t\tBloqueado\t\t\t"
-                                            + transicion + "\t\tAntes de Ventana y alguien espera");
+                        archivito.println(System.currentTimeMillis() + "\t\t" + 
+                                Thread.currentThread().getId() + "\t\tBloqueado\t\t\t"
+                                            + transicion + "\t\t\tAntes de Ventana y alguien espera");
                         mutex.release();
                         colas.acquireTransition(transicion);     
                     }
                 }
                 else
                 {
-                    archivito.println(Thread.currentThread().getId() + "\t\tBloqueado\t\t\t" +
+                    archivito.println(System.currentTimeMillis() + "\t\t" + 
+                            Thread.currentThread().getId() + "\t\tBloqueado\t\t\t" +
                                         transicion + "\t\tDespues de la ventana");
                     mutex.release();
                     colas.acquireTransition(transicion); 
@@ -189,7 +196,8 @@ public class Monitor
             }
             else
             {
-                archivito.println(Thread.currentThread().getId()+"\t\tBloqueado\t\t\t"+ transicion);
+                archivito.println(System.currentTimeMillis() + "\t\t" + 
+                        Thread.currentThread().getId()+"\t\tBloqueado\t\t\t"+ transicion);
                 mutex.release();
                 colas.acquireTransition(transicion);
                 //System.out.println("Usted intento disparar " + transicion);

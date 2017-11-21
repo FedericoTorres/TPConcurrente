@@ -26,38 +26,13 @@ public class main {
     public static void main(String[] args) throws IOException {
         
         // TODO code application logic here
-        String path1 = "/src/datos/";
-        String path2 = "MatrizIncidencia.csv";
-        String path3 = "MarcadoInicial.csv";
-        String path4 = "MatrizSensibilizadas.csv";
-        String path5 = "DetallesDeTransiciones.csv";
-        String path6 = "DetallesDePlazas.csv";
-        String path7 = "Hilos2.csv";
-        String path8 = "tiempos.csv";
+        String path1 = "/src/datos/Hilos2.csv";
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         buff.append(filePath);
         buff.append(path1);
-        buff.append(path2);
-        path2 = buff.toString();
-        buff.delete((filePath.length() + path1.length()), buff.length());
-        buff.append(path3);
-        path3 = buff.toString();
-        buff.delete((filePath.length() + path1.length()), buff.length());
-        buff.append(path4);
-        path4 = buff.toString();
-        buff.delete((filePath.length() + path1.length()), buff.length());
-        buff.append(path5);
-        path5 = buff.toString();
-        buff.delete((filePath.length() + path1.length()), buff.length());
-        buff.append(path6);
-        path6 = buff.toString();
-        buff.delete((filePath.length() + path1.length()), buff.length());
-        buff.append(path7);
-        path7 = buff.toString();
-        buff.delete((filePath.length() + path1.length()), buff.length());
-        buff.append(path8);
-        path8 = buff.toString();
+        path1 = buff.toString();
+
 
         
         
@@ -65,14 +40,10 @@ public class main {
         plazas = instanciarPlazaAEstado();
         System.out.println("---------------------");
         TransicionAEvento transiciones = instranciarTransicionAEvento();
-       
-        
-        Monitor monitor = new Monitor (path2, plazas.getKeys(),
-                                        transiciones.getKeys(), 
-                                        path3, path4, path8);
+        Monitor monitor = instanciarMonitor(plazas, transiciones);
         ArrayList<Thread> hilos = new ArrayList<>();
         BufferedReader br = null;
-        br = new BufferedReader(new FileReader(path7));
+        br = new BufferedReader(new FileReader(path1));
         for (int i = 0; i < 18; i++)
         {
             String line  = br.readLine();
@@ -93,10 +64,33 @@ public class main {
     }
     
     
-    public Monitor instanciarMonitor()
+    public static Monitor instanciarMonitor(PlazaAEstado plazas, 
+                                    TransicionAEvento transiciones) throws IOException
     {
         String path1 = "/src/datos/";
-        return null;
+        String path2 = "MatrizIncidencia.csv";
+        String path3 = "MarcadoInicial.csv";
+        String path4 = "MatrizSensibilizadas.csv";
+        String path8 = "tiempos.csv";
+        StringBuffer buff = new StringBuffer();
+        String filePath = new File("").getAbsolutePath();
+        buff.append(filePath);
+        buff.append(path1);
+        buff.append(path2);
+        path2 = buff.toString();
+        buff.delete((filePath.length() + path1.length()), buff.length());
+        buff.append(path3);
+        path3 = buff.toString();
+        buff.delete((filePath.length() + path1.length()), buff.length());
+        buff.append(path4);
+        path4 = buff.toString();
+        buff.delete((filePath.length() + path1.length()), buff.length());       
+        buff.append(path8);
+        path8 = buff.toString();
+        
+        return new Monitor(path2, plazas.getKeys(),
+                transiciones.getKeys(),
+                path3, path4, path8);
     }
     
     public static PlazaAEstado instanciarPlazaAEstado() throws IOException
