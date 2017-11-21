@@ -22,6 +22,7 @@ public class main {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
         
@@ -39,7 +40,7 @@ public class main {
         PlazaAEstado plazas;
         plazas = instanciarPlazaAEstado();
         System.out.println("---------------------");
-        TransicionAEvento transiciones = instranciarTransicionAEvento();
+        TransicionAEvento transiciones = instanciarTransicionAEvento();
         Monitor monitor = instanciarMonitor(plazas, transiciones);
         ArrayList<Thread> hilos = new ArrayList<>();
         BufferedReader br = null;
@@ -104,7 +105,7 @@ public class main {
         return new PlazaAEstado(path1);
     }
     
-    public static TransicionAEvento instranciarTransicionAEvento () throws IOException
+    public static TransicionAEvento instanciarTransicionAEvento () throws IOException
     {
         String path1 = "/src/datos/DetallesDeTransiciones.csv";
         StringBuffer buff = new StringBuffer();
