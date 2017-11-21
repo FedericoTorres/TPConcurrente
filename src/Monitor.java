@@ -76,6 +76,15 @@ public class Monitor
         archivito.println("");
     }
     
+    /**
+     * Método que realiza todo el control del monitor y la red de petri,
+     * permitiendo el acceso exclusivo a 1 hilo.El método comprueba que una
+     * transición se encuentre sensibilizada así como también las ventanas de
+     * tiempo para determinar su ejecución.
+     * Cuando su ejecución no es posible se toman diferentes acciones
+     * dependiendo de por qué no pudo dispararse.
+     * @param transicion 
+     */
     public void dispararTransicion(String transicion)
     {
         try 
