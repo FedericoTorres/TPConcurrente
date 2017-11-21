@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  *
- * @author leo
+ * @author Leonardo Corrado & Federico Torres
  */
 public class SemaforoC extends Semaphore
 {

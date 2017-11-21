@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author leo
+ * @author Leonardo Corrado & Federico Torres
  */
 public class Politica 
 {

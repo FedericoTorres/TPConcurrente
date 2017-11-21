@@ -2,79 +2,76 @@ Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 1 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 2 piezas.
 Linea 1: 1 piezas.
 Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 2 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 3 piezas.
-Linea 1: 3 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 4 piezas.
 Final Linea 1: 0 piezas.
 Final Linea 2: 1 piezas.
 Final Linea 3: 0 piezas.
-Linea 1: 3 piezas.
+Linea 1: 1 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 5 piezas.
+Linea 3: 1 piezas.
+TOTAL: 4 piezas.
 Final Linea 1: 0 piezas.
+Final Linea 2: 2 piezas.
+Final Linea 3: 0 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 5 piezas.
+Final Linea 1: 1 piezas.
 Final Linea 2: 2 piezas.
 Final Linea 3: 0 piezas.
 Final Linea 1: 1 piezas.
 Final Linea 2: 2 piezas.
-Final Linea 3: 0 piezas.
+Final Linea 3: 1 piezas.
 Final Linea 1: 2 piezas.
 Final Linea 2: 2 piezas.
-Final Linea 3: 0 piezas.
-Final Linea 1: 3 piezas.
-Final Linea 2: 2 piezas.
-Final Linea 3: 0 piezas.
+Final Linea 3: 1 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 6 piezas.
 Linea 1: 0 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 7 piezas.
 Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 8 piezas.
-Linea 1: 2 piezas.
+Linea 1: 1 piezas.
 Linea 2: 1 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 9 piezas.
-Final Linea 1: 3 piezas.
+Final Linea 1: 2 piezas.
 Final Linea 2: 3 piezas.
-Final Linea 3: 0 piezas.
-Linea 1: 2 piezas.
+Final Linea 3: 1 piezas.
+Linea 1: 1 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 10 piezas.
-Final Linea 1: 3 piezas.
-Final Linea 2: 4 piezas.
-Final Linea 3: 0 piezas.
-Final Linea 1: 4 piezas.
-Final Linea 2: 4 piezas.
-Final Linea 3: 0 piezas.
-Linea 1: 3 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 11 piezas.
-Final Linea 1: 5 piezas.
-Final Linea 2: 4 piezas.
-Final Linea 3: 0 piezas.
-Final Linea 1: 6 piezas.
-Final Linea 2: 4 piezas.
-Final Linea 3: 0 piezas.
-Final Linea 1: 6 piezas.
+Final Linea 1: 2 piezas.
 Final Linea 2: 4 piezas.
 Final Linea 3: 1 piezas.
+Final Linea 1: 3 piezas.
+Final Linea 2: 4 piezas.
+Final Linea 3: 1 piezas.
+Final Linea 1: 3 piezas.
+Final Linea 2: 4 piezas.
+Final Linea 3: 2 piezas.
+Final Linea 1: 4 piezas.
+Final Linea 2: 4 piezas.
+Final Linea 3: 2 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 11 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
@@ -83,30 +80,30 @@ Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 13 piezas.
-Linea 1: 1 piezas.
+Linea 1: 0 piezas.
 Linea 2: 1 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 14 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 15 piezas.
-Final Linea 1: 6 piezas.
+Final Linea 1: 4 piezas.
 Final Linea 2: 5 piezas.
-Final Linea 3: 1 piezas.
-Linea 1: 2 piezas.
+Final Linea 3: 2 piezas.
+Linea 1: 0 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 16 piezas.
-Final Linea 1: 6 piezas.
-Final Linea 2: 6 piezas.
-Final Linea 3: 1 piezas.
-Final Linea 1: 7 piezas.
-Final Linea 2: 6 piezas.
-Final Linea 3: 1 piezas.
-Final Linea 1: 7 piezas.
+Linea 3: 1 piezas.
+TOTAL: 15 piezas.
+Final Linea 1: 4 piezas.
 Final Linea 2: 6 piezas.
 Final Linea 3: 2 piezas.
+Final Linea 1: 4 piezas.
+Final Linea 2: 6 piezas.
+Final Linea 3: 3 piezas.
+Final Linea 1: 5 piezas.
+Final Linea 2: 6 piezas.
+Final Linea 3: 3 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 16 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
@@ -115,38 +112,38 @@ Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 18 piezas.
-Final Linea 1: 8 piezas.
+Final Linea 1: 6 piezas.
 Final Linea 2: 6 piezas.
-Final Linea 3: 2 piezas.
+Final Linea 3: 3 piezas.
 Linea 1: 1 piezas.
 Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 19 piezas.
+Final Linea 1: 7 piezas.
+Final Linea 2: 6 piezas.
+Final Linea 3: 3 piezas.
 Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 20 piezas.
 Final Linea 1: 8 piezas.
-Final Linea 2: 7 piezas.
-Final Linea 3: 2 piezas.
+Final Linea 2: 6 piezas.
+Final Linea 3: 3 piezas.
 Linea 1: 1 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
 TOTAL: 21 piezas.
 Final Linea 1: 8 piezas.
-Final Linea 2: 8 piezas.
-Final Linea 3: 2 piezas.
-Linea 1: 2 piezas.
+Final Linea 2: 7 piezas.
+Final Linea 3: 3 piezas.
+Linea 1: 1 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 22 piezas.
+Final Linea 1: 8 piezas.
+Final Linea 2: 8 piezas.
+Final Linea 3: 3 piezas.
 Final Linea 1: 9 piezas.
-Final Linea 2: 8 piezas.
-Final Linea 3: 2 piezas.
-Final Linea 1: 10 piezas.
-Final Linea 2: 8 piezas.
-Final Linea 3: 2 piezas.
-Final Linea 1: 10 piezas.
 Final Linea 2: 8 piezas.
 Final Linea 3: 3 piezas.
 Linea 1: 2 piezas.
@@ -157,27 +154,34 @@ Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 24 piezas.
-Linea 1: 1 piezas.
-Linea 2: 0 piezas.
-Linea 3: 0 piezas.
-TOTAL: 25 piezas.
-Linea 1: 1 piezas.
+Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
-TOTAL: 26 piezas.
-Final Linea 1: 11 piezas.
+TOTAL: 25 piezas.
+Final Linea 1: 10 piezas.
 Final Linea 2: 8 piezas.
 Final Linea 3: 3 piezas.
-Final Linea 1: 11 piezas.
+Final Linea 1: 10 piezas.
 Final Linea 2: 9 piezas.
+Final Linea 3: 3 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 26 piezas.
+Final Linea 1: 10 piezas.
+Final Linea 2: 10 piezas.
+Final Linea 3: 3 piezas.
+Final Linea 1: 11 piezas.
+Final Linea 2: 10 piezas.
 Final Linea 3: 3 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 27 piezas.
-Final Linea 1: 11 piezas.
-Final Linea 2: 10 piezas.
-Final Linea 3: 3 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 28 piezas.
 Final Linea 1: 12 piezas.
 Final Linea 2: 10 piezas.
 Final Linea 3: 3 piezas.
@@ -186,21 +190,8 @@ Final Linea 2: 10 piezas.
 Final Linea 3: 4 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 28 piezas.
-Linea 1: 3 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 29 piezas.
-Final Linea 1: 13 piezas.
-Final Linea 2: 10 piezas.
-Final Linea 3: 4 piezas.
-Final Linea 1: 14 piezas.
-Final Linea 2: 10 piezas.
-Final Linea 3: 4 piezas.
-Final Linea 1: 15 piezas.
-Final Linea 2: 10 piezas.
-Final Linea 3: 4 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
@@ -209,34 +200,49 @@ Linea 1: 1 piezas.
 Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 31 piezas.
+Final Linea 1: 13 piezas.
+Final Linea 2: 10 piezas.
+Final Linea 3: 4 piezas.
 Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 32 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
+Final Linea 1: 14 piezas.
+Final Linea 2: 10 piezas.
+Final Linea 3: 4 piezas.
+Final Linea 1: 14 piezas.
+Final Linea 2: 11 piezas.
+Final Linea 3: 4 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 33 piezas.
-Final Linea 1: 15 piezas.
-Final Linea 2: 11 piezas.
+Final Linea 1: 14 piezas.
+Final Linea 2: 12 piezas.
 Final Linea 3: 4 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 34 piezas.
+Final Linea 1: 14 piezas.
+Final Linea 2: 12 piezas.
+Final Linea 3: 5 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 35 piezas.
 Final Linea 1: 15 piezas.
 Final Linea 2: 12 piezas.
-Final Linea 3: 4 piezas.
-Final Linea 1: 16 piezas.
-Final Linea 2: 12 piezas.
-Final Linea 3: 4 piezas.
+Final Linea 3: 5 piezas.
 Final Linea 1: 16 piezas.
 Final Linea 2: 12 piezas.
 Final Linea 3: 5 piezas.
-Linea 1: 2 piezas.
-Linea 2: 2 piezas.
-Linea 3: 1 piezas.
-TOTAL: 35 piezas.
+Final Linea 1: 17 piezas.
+Final Linea 2: 12 piezas.
+Final Linea 3: 5 piezas.
+Final Linea 1: 18 piezas.
+Final Linea 2: 12 piezas.
+Final Linea 3: 5 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
@@ -249,40 +255,31 @@ Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 38 piezas.
-Final Linea 1: 17 piezas.
-Final Linea 2: 12 piezas.
-Final Linea 3: 5 piezas.
-Final Linea 1: 17 piezas.
+Final Linea 1: 18 piezas.
 Final Linea 2: 13 piezas.
 Final Linea 3: 5 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 39 piezas.
-Final Linea 1: 17 piezas.
-Final Linea 2: 14 piezas.
-Final Linea 3: 5 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 40 piezas.
-Linea 1: 3 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 41 piezas.
 Final Linea 1: 18 piezas.
 Final Linea 2: 14 piezas.
 Final Linea 3: 5 piezas.
 Final Linea 1: 19 piezas.
 Final Linea 2: 14 piezas.
 Final Linea 3: 5 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 41 piezas.
+Final Linea 1: 19 piezas.
+Final Linea 2: 14 piezas.
+Final Linea 3: 6 piezas.
 Final Linea 1: 20 piezas.
-Final Linea 2: 14 piezas.
-Final Linea 3: 5 piezas.
-Final Linea 1: 21 piezas.
-Final Linea 2: 14 piezas.
-Final Linea 3: 5 piezas.
-Final Linea 1: 21 piezas.
 Final Linea 2: 14 piezas.
 Final Linea 3: 6 piezas.
 Linea 1: 3 piezas.
@@ -293,66 +290,69 @@ Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 43 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 44 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 45 piezas.
-Final Linea 1: 21 piezas.
+Final Linea 1: 20 piezas.
 Final Linea 2: 15 piezas.
 Final Linea 3: 6 piezas.
-Linea 1: 2 piezas.
+Linea 1: 0 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
+TOTAL: 44 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 45 piezas.
+Final Linea 1: 20 piezas.
+Final Linea 2: 16 piezas.
+Final Linea 3: 6 piezas.
+Final Linea 1: 20 piezas.
+Final Linea 2: 16 piezas.
+Final Linea 3: 7 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
 TOTAL: 46 piezas.
 Final Linea 1: 21 piezas.
-Final Linea 2: 16 piezas.
-Final Linea 3: 6 piezas.
-Final Linea 1: 22 piezas.
-Final Linea 2: 16 piezas.
-Final Linea 3: 6 piezas.
-Final Linea 1: 22 piezas.
 Final Linea 2: 16 piezas.
 Final Linea 3: 7 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 47 piezas.
+Final Linea 1: 22 piezas.
+Final Linea 2: 16 piezas.
+Final Linea 3: 7 piezas.
+Final Linea 1: 22 piezas.
+Final Linea 2: 16 piezas.
+Final Linea 3: 8 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 48 piezas.
-Linea 1: 0 piezas.
-Linea 2: 1 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 49 piezas.
-Final Linea 1: 22 piezas.
-Final Linea 2: 17 piezas.
-Final Linea 3: 7 piezas.
-Linea 1: 0 piezas.
-Linea 2: 2 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 50 piezas.
-Final Linea 1: 22 piezas.
-Final Linea 2: 18 piezas.
-Final Linea 3: 7 piezas.
-Final Linea 1: 22 piezas.
-Final Linea 2: 18 piezas.
+Final Linea 1: 23 piezas.
+Final Linea 2: 16 piezas.
+Final Linea 3: 8 piezas.
+Final Linea 1: 24 piezas.
+Final Linea 2: 16 piezas.
 Final Linea 3: 8 piezas.
 Linea 1: 1 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
 TOTAL: 51 piezas.
+Final Linea 1: 24 piezas.
+Final Linea 2: 17 piezas.
+Final Linea 3: 8 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 52 piezas.
-Final Linea 1: 23 piezas.
-Final Linea 2: 18 piezas.
-Final Linea 3: 8 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
@@ -360,7 +360,10 @@ TOTAL: 53 piezas.
 Final Linea 1: 24 piezas.
 Final Linea 2: 18 piezas.
 Final Linea 3: 8 piezas.
-Final Linea 1: 24 piezas.
+Final Linea 1: 25 piezas.
+Final Linea 2: 18 piezas.
+Final Linea 3: 8 piezas.
+Final Linea 1: 25 piezas.
 Final Linea 2: 18 piezas.
 Final Linea 3: 9 piezas.
 Linea 1: 3 piezas.
@@ -368,40 +371,37 @@ Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 54 piezas.
 Linea 1: 0 piezas.
-Linea 2: 0 piezas.
-Linea 3: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
 TOTAL: 55 piezas.
-Linea 1: 1 piezas.
-Linea 2: 0 piezas.
-Linea 3: 1 piezas.
-TOTAL: 56 piezas.
 Final Linea 1: 25 piezas.
-Final Linea 2: 18 piezas.
-Final Linea 3: 9 piezas.
-Final Linea 1: 26 piezas.
-Final Linea 2: 18 piezas.
-Final Linea 3: 9 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 1 piezas.
-TOTAL: 57 piezas.
-Final Linea 1: 27 piezas.
-Final Linea 2: 18 piezas.
-Final Linea 3: 9 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 1 piezas.
-TOTAL: 58 piezas.
-Final Linea 1: 27 piezas.
 Final Linea 2: 19 piezas.
 Final Linea 3: 9 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 56 piezas.
+Final Linea 1: 26 piezas.
+Final Linea 2: 19 piezas.
+Final Linea 3: 9 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 57 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 58 piezas.
+Final Linea 1: 26 piezas.
+Final Linea 2: 20 piezas.
+Final Linea 3: 9 piezas.
+Final Linea 1: 26 piezas.
+Final Linea 2: 20 piezas.
+Final Linea 3: 10 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 59 piezas.
-Final Linea 1: 27 piezas.
-Final Linea 2: 20 piezas.
-Final Linea 3: 9 piezas.
 Final Linea 1: 27 piezas.
 Final Linea 2: 20 piezas.
 Final Linea 3: 10 piezas.
@@ -412,33 +412,33 @@ TOTAL: 60 piezas.
 Final Linea 1: 28 piezas.
 Final Linea 2: 20 piezas.
 Final Linea 3: 10 piezas.
-Linea 1: 0 piezas.
-Linea 2: 1 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 61 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
+Linea 1: 2 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 62 piezas.
 Final Linea 1: 29 piezas.
 Final Linea 2: 20 piezas.
 Final Linea 3: 10 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
+Final Linea 1: 30 piezas.
+Final Linea 2: 20 piezas.
+Final Linea 3: 10 piezas.
+Linea 1: 3 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 63 piezas.
-Final Linea 1: 29 piezas.
-Final Linea 2: 21 piezas.
+Final Linea 1: 31 piezas.
+Final Linea 2: 20 piezas.
 Final Linea 3: 10 piezas.
-Linea 1: 2 piezas.
-Linea 2: 2 piezas.
+Linea 1: 3 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 64 piezas.
-Final Linea 1: 29 piezas.
-Final Linea 2: 22 piezas.
-Final Linea 3: 10 piezas.
-Final Linea 1: 30 piezas.
-Final Linea 2: 22 piezas.
+Final Linea 1: 31 piezas.
+Final Linea 2: 21 piezas.
 Final Linea 3: 10 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
@@ -462,18 +462,15 @@ Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 68 piezas.
-Final Linea 1: 32 piezas.
-Final Linea 2: 23 piezas.
-Final Linea 3: 10 piezas.
-Linea 1: 1 piezas.
-Linea 2: 2 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 69 piezas.
-Final Linea 1: 32 piezas.
-Final Linea 2: 24 piezas.
+Final Linea 1: 33 piezas.
+Final Linea 2: 22 piezas.
 Final Linea 3: 10 piezas.
 Final Linea 1: 33 piezas.
-Final Linea 2: 24 piezas.
+Final Linea 2: 23 piezas.
 Final Linea 3: 10 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
@@ -481,116 +478,119 @@ Linea 3: 0 piezas.
 TOTAL: 70 piezas.
 Final Linea 1: 33 piezas.
 Final Linea 2: 24 piezas.
-Final Linea 3: 11 piezas.
-Linea 1: 2 piezas.
+Final Linea 3: 10 piezas.
+Linea 1: 3 piezas.
 Linea 2: 2 piezas.
-Linea 3: 1 piezas.
+Linea 3: 0 piezas.
 TOTAL: 71 piezas.
+Final Linea 1: 34 piezas.
+Final Linea 2: 24 piezas.
+Final Linea 3: 10 piezas.
+Final Linea 1: 34 piezas.
+Final Linea 2: 24 piezas.
+Final Linea 3: 11 piezas.
+Final Linea 1: 35 piezas.
+Final Linea 2: 24 piezas.
+Final Linea 3: 11 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 72 piezas.
-Linea 1: 0 piezas.
-Linea 2: 1 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 73 piezas.
-Final Linea 1: 34 piezas.
+Final Linea 1: 36 piezas.
 Final Linea 2: 24 piezas.
 Final Linea 3: 11 piezas.
-Final Linea 1: 34 piezas.
-Final Linea 2: 25 piezas.
-Final Linea 3: 11 piezas.
-Linea 1: 0 piezas.
-Linea 2: 2 piezas.
+Linea 1: 2 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 74 piezas.
-Final Linea 1: 34 piezas.
-Final Linea 2: 26 piezas.
-Final Linea 3: 11 piezas.
-Final Linea 1: 34 piezas.
-Final Linea 2: 26 piezas.
-Final Linea 3: 12 piezas.
-Final Linea 1: 35 piezas.
-Final Linea 2: 26 piezas.
-Final Linea 3: 12 piezas.
-Linea 1: 0 piezas.
-Linea 2: 2 piezas.
-Linea 3: 1 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
 TOTAL: 75 piezas.
-Linea 1: 1 piezas.
-Linea 2: 2 piezas.
+Final Linea 1: 36 piezas.
+Final Linea 2: 24 piezas.
+Final Linea 3: 12 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
 Linea 3: 1 piezas.
 TOTAL: 76 piezas.
-Linea 1: 2 piezas.
-Linea 2: 2 piezas.
+Final Linea 1: 37 piezas.
+Final Linea 2: 24 piezas.
+Final Linea 3: 12 piezas.
+Linea 1: 3 piezas.
+Linea 2: 1 piezas.
 Linea 3: 1 piezas.
 TOTAL: 77 piezas.
-Final Linea 1: 36 piezas.
-Final Linea 2: 26 piezas.
-Final Linea 3: 12 piezas.
 Final Linea 1: 37 piezas.
-Final Linea 2: 26 piezas.
+Final Linea 2: 25 piezas.
 Final Linea 3: 12 piezas.
-Final Linea 1: 37 piezas.
-Final Linea 2: 26 piezas.
-Final Linea 3: 13 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 78 piezas.
+Final Linea 1: 37 piezas.
+Final Linea 2: 26 piezas.
+Final Linea 3: 12 piezas.
 Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 79 piezas.
-Final Linea 1: 38 piezas.
-Final Linea 2: 26 piezas.
-Final Linea 3: 13 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
+Final Linea 1: 37 piezas.
+Final Linea 2: 27 piezas.
+Final Linea 3: 12 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 80 piezas.
+Final Linea 1: 37 piezas.
+Final Linea 2: 28 piezas.
+Final Linea 3: 12 piezas.
 Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
 TOTAL: 81 piezas.
 Final Linea 1: 38 piezas.
-Final Linea 2: 27 piezas.
+Final Linea 2: 28 piezas.
+Final Linea 3: 12 piezas.
+Final Linea 1: 38 piezas.
+Final Linea 2: 28 piezas.
 Final Linea 3: 13 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 82 piezas.
-Final Linea 1: 38 piezas.
-Final Linea 2: 28 piezas.
-Final Linea 3: 13 piezas.
 Final Linea 1: 39 piezas.
 Final Linea 2: 28 piezas.
 Final Linea 3: 13 piezas.
-Final Linea 1: 39 piezas.
-Final Linea 2: 28 piezas.
-Final Linea 3: 14 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 83 piezas.
+Final Linea 1: 39 piezas.
+Final Linea 2: 28 piezas.
+Final Linea 3: 14 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 84 piezas.
+Final Linea 1: 40 piezas.
+Final Linea 2: 28 piezas.
+Final Linea 3: 14 piezas.
 Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 85 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 86 piezas.
-Final Linea 1: 40 piezas.
-Final Linea 2: 28 piezas.
-Final Linea 3: 14 piezas.
 Final Linea 1: 40 piezas.
 Final Linea 2: 29 piezas.
 Final Linea 3: 14 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 86 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
@@ -598,21 +598,27 @@ TOTAL: 87 piezas.
 Final Linea 1: 40 piezas.
 Final Linea 2: 30 piezas.
 Final Linea 3: 14 piezas.
-Final Linea 1: 41 piezas.
-Final Linea 2: 30 piezas.
-Final Linea 3: 14 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 88 piezas.
-Linea 1: 3 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 89 piezas.
+Final Linea 1: 41 piezas.
+Final Linea 2: 30 piezas.
+Final Linea 3: 14 piezas.
 Final Linea 1: 42 piezas.
 Final Linea 2: 30 piezas.
 Final Linea 3: 14 piezas.
 Final Linea 1: 43 piezas.
+Final Linea 2: 30 piezas.
+Final Linea 3: 14 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 89 piezas.
+Final Linea 1: 44 piezas.
+Final Linea 2: 30 piezas.
+Final Linea 3: 14 piezas.
+Final Linea 1: 45 piezas.
 Final Linea 2: 30 piezas.
 Final Linea 3: 14 piezas.
 Linea 1: 3 piezas.
@@ -627,33 +633,33 @@ Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 92 piezas.
-Final Linea 1: 44 piezas.
-Final Linea 2: 30 piezas.
-Final Linea 3: 14 piezas.
-Final Linea 1: 44 piezas.
+Final Linea 1: 45 piezas.
 Final Linea 2: 31 piezas.
 Final Linea 3: 14 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 93 piezas.
-Final Linea 1: 44 piezas.
-Final Linea 2: 32 piezas.
-Final Linea 3: 14 piezas.
-Final Linea 1: 45 piezas.
-Final Linea 2: 32 piezas.
-Final Linea 3: 14 piezas.
-Final Linea 1: 45 piezas.
-Final Linea 2: 32 piezas.
-Final Linea 3: 15 piezas.
-Linea 1: 1 piezas.
-Linea 2: 2 piezas.
-Linea 3: 1 piezas.
-TOTAL: 94 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
-Linea 3: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 94 piezas.
+Final Linea 1: 45 piezas.
+Final Linea 2: 32 piezas.
+Final Linea 3: 14 piezas.
+Final Linea 1: 46 piezas.
+Final Linea 2: 32 piezas.
+Final Linea 3: 14 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
 TOTAL: 95 piezas.
+Final Linea 1: 47 piezas.
+Final Linea 2: 32 piezas.
+Final Linea 3: 14 piezas.
+Final Linea 1: 47 piezas.
+Final Linea 2: 32 piezas.
+Final Linea 3: 15 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
@@ -662,25 +668,19 @@ Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 97 piezas.
-Final Linea 1: 46 piezas.
+Final Linea 1: 48 piezas.
 Final Linea 2: 32 piezas.
 Final Linea 3: 15 piezas.
-Final Linea 1: 46 piezas.
-Final Linea 2: 33 piezas.
-Final Linea 3: 15 piezas.
-Linea 1: 0 piezas.
-Linea 2: 2 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 98 piezas.
-Final Linea 1: 46 piezas.
-Final Linea 2: 34 piezas.
-Final Linea 3: 15 piezas.
-Linea 1: 1 piezas.
-Linea 2: 2 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 99 piezas.
-Final Linea 1: 47 piezas.
-Final Linea 2: 34 piezas.
+Final Linea 1: 48 piezas.
+Final Linea 2: 33 piezas.
 Final Linea 3: 15 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
@@ -689,311 +689,308 @@ TOTAL: 100 piezas.
 Final Linea 1: 48 piezas.
 Final Linea 2: 34 piezas.
 Final Linea 3: 15 piezas.
+Final Linea 1: 49 piezas.
+Final Linea 2: 34 piezas.
+Final Linea 3: 15 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 101 piezas.
-Final Linea 1: 49 piezas.
+Final Linea 1: 50 piezas.
 Final Linea 2: 34 piezas.
 Final Linea 3: 15 piezas.
-Final Linea 1: 49 piezas.
+Final Linea 1: 50 piezas.
 Final Linea 2: 34 piezas.
 Final Linea 3: 16 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 102 piezas.
-Linea 1: 0 piezas.
-Linea 2: 1 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 103 piezas.
 Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 104 piezas.
-Final Linea 1: 50 piezas.
+Final Linea 1: 51 piezas.
 Final Linea 2: 34 piezas.
 Final Linea 3: 16 piezas.
-Final Linea 1: 50 piezas.
+Final Linea 1: 51 piezas.
 Final Linea 2: 35 piezas.
 Final Linea 3: 16 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 105 piezas.
-Final Linea 1: 50 piezas.
-Final Linea 2: 36 piezas.
-Final Linea 3: 16 piezas.
-Final Linea 1: 51 piezas.
-Final Linea 2: 36 piezas.
-Final Linea 3: 16 piezas.
-Final Linea 1: 52 piezas.
-Final Linea 2: 36 piezas.
-Final Linea 3: 16 piezas.
-Final Linea 1: 52 piezas.
-Final Linea 2: 36 piezas.
-Final Linea 3: 17 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 106 piezas.
-Linea 1: 3 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 107 piezas.
-Final Linea 1: 53 piezas.
+Final Linea 1: 51 piezas.
+Final Linea 2: 36 piezas.
+Final Linea 3: 16 piezas.
+Final Linea 1: 51 piezas.
 Final Linea 2: 36 piezas.
 Final Linea 3: 17 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 107 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 108 piezas.
-Linea 1: 0 piezas.
-Linea 2: 1 piezas.
+Final Linea 1: 52 piezas.
+Final Linea 2: 36 piezas.
+Final Linea 3: 17 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 109 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
+Linea 1: 2 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 110 piezas.
 Final Linea 1: 53 piezas.
-Final Linea 2: 37 piezas.
-Final Linea 3: 17 piezas.
-Linea 1: 1 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 111 piezas.
-Final Linea 1: 53 piezas.
-Final Linea 2: 38 piezas.
+Final Linea 2: 36 piezas.
 Final Linea 3: 17 piezas.
 Final Linea 1: 54 piezas.
-Final Linea 2: 38 piezas.
+Final Linea 2: 36 piezas.
 Final Linea 3: 17 piezas.
 Linea 1: 2 piezas.
-Linea 2: 2 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
+TOTAL: 111 piezas.
+Final Linea 1: 54 piezas.
+Final Linea 2: 36 piezas.
+Final Linea 3: 18 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
 TOTAL: 112 piezas.
 Linea 1: 3 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
 TOTAL: 113 piezas.
 Final Linea 1: 55 piezas.
-Final Linea 2: 38 piezas.
-Final Linea 3: 17 piezas.
-Final Linea 1: 56 piezas.
-Final Linea 2: 38 piezas.
-Final Linea 3: 17 piezas.
-Final Linea 1: 56 piezas.
-Final Linea 2: 38 piezas.
+Final Linea 2: 36 piezas.
+Final Linea 3: 18 piezas.
+Final Linea 1: 55 piezas.
+Final Linea 2: 37 piezas.
 Final Linea 3: 18 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 114 piezas.
+Final Linea 1: 55 piezas.
+Final Linea 2: 38 piezas.
+Final Linea 3: 18 piezas.
 Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 115 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 116 piezas.
-Final Linea 1: 56 piezas.
+Final Linea 1: 55 piezas.
 Final Linea 2: 39 piezas.
 Final Linea 3: 18 piezas.
-Linea 1: 1 piezas.
+Linea 1: 0 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
-TOTAL: 117 piezas.
-Final Linea 1: 56 piezas.
+TOTAL: 116 piezas.
+Final Linea 1: 55 piezas.
 Final Linea 2: 40 piezas.
 Final Linea 3: 18 piezas.
-Final Linea 1: 56 piezas.
+Final Linea 1: 55 piezas.
 Final Linea 2: 40 piezas.
 Final Linea 3: 19 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 117 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 118 piezas.
+Final Linea 1: 56 piezas.
+Final Linea 2: 40 piezas.
+Final Linea 3: 19 piezas.
+Final Linea 1: 56 piezas.
+Final Linea 2: 40 piezas.
+Final Linea 3: 20 piezas.
+Final Linea 1: 57 piezas.
+Final Linea 2: 40 piezas.
+Final Linea 3: 20 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 119 piezas.
-Final Linea 1: 57 piezas.
-Final Linea 2: 40 piezas.
-Final Linea 3: 19 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 120 piezas.
-Linea 1: 0 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 121 piezas.
 Final Linea 1: 58 piezas.
 Final Linea 2: 40 piezas.
-Final Linea 3: 19 piezas.
-Final Linea 1: 58 piezas.
-Final Linea 2: 41 piezas.
-Final Linea 3: 19 piezas.
-Linea 1: 0 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 122 piezas.
-Final Linea 1: 58 piezas.
-Final Linea 2: 42 piezas.
-Final Linea 3: 19 piezas.
-Final Linea 1: 58 piezas.
-Final Linea 2: 42 piezas.
-Final Linea 3: 20 piezas.
-Linea 1: 0 piezas.
-Linea 2: 2 piezas.
-Linea 3: 1 piezas.
-TOTAL: 123 piezas.
-Final Linea 1: 59 piezas.
-Final Linea 2: 42 piezas.
 Final Linea 3: 20 piezas.
 Linea 1: 1 piezas.
-Linea 2: 2 piezas.
-Linea 3: 1 piezas.
-TOTAL: 124 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 121 piezas.
 Final Linea 1: 59 piezas.
-Final Linea 2: 42 piezas.
-Final Linea 3: 21 piezas.
+Final Linea 2: 40 piezas.
+Final Linea 3: 20 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 122 piezas.
+Final Linea 1: 60 piezas.
+Final Linea 2: 40 piezas.
+Final Linea 3: 20 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 123 piezas.
+Final Linea 1: 60 piezas.
+Final Linea 2: 41 piezas.
+Final Linea 3: 20 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
-Linea 3: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 124 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
 TOTAL: 125 piezas.
 Final Linea 1: 60 piezas.
 Final Linea 2: 42 piezas.
-Final Linea 3: 21 piezas.
+Final Linea 3: 20 piezas.
+Final Linea 1: 61 piezas.
+Final Linea 2: 42 piezas.
+Final Linea 3: 20 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 126 piezas.
 Linea 1: 0 piezas.
-Linea 2: 0 piezas.
-Linea 3: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
 TOTAL: 127 piezas.
-Linea 1: 1 piezas.
-Linea 2: 0 piezas.
-Linea 3: 1 piezas.
+Final Linea 1: 61 piezas.
+Final Linea 2: 43 piezas.
+Final Linea 3: 20 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
 TOTAL: 128 piezas.
 Final Linea 1: 61 piezas.
-Final Linea 2: 42 piezas.
-Final Linea 3: 21 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 1 piezas.
-TOTAL: 129 piezas.
-Final Linea 1: 62 piezas.
-Final Linea 2: 42 piezas.
-Final Linea 3: 21 piezas.
-Final Linea 1: 62 piezas.
-Final Linea 2: 43 piezas.
+Final Linea 2: 44 piezas.
+Final Linea 3: 20 piezas.
+Final Linea 1: 61 piezas.
+Final Linea 2: 44 piezas.
 Final Linea 3: 21 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
-Linea 3: 1 piezas.
-TOTAL: 130 piezas.
+Linea 3: 0 piezas.
+TOTAL: 129 piezas.
 Final Linea 1: 62 piezas.
+Final Linea 2: 44 piezas.
+Final Linea 3: 21 piezas.
+Final Linea 1: 63 piezas.
 Final Linea 2: 44 piezas.
 Final Linea 3: 21 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
-Linea 3: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 130 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
 TOTAL: 131 piezas.
-Final Linea 1: 63 piezas.
-Final Linea 2: 44 piezas.
-Final Linea 3: 21 piezas.
 Final Linea 1: 64 piezas.
 Final Linea 2: 44 piezas.
 Final Linea 3: 21 piezas.
-Final Linea 1: 64 piezas.
+Final Linea 1: 65 piezas.
 Final Linea 2: 44 piezas.
-Final Linea 3: 22 piezas.
+Final Linea 3: 21 piezas.
+Final Linea 1: 66 piezas.
+Final Linea 2: 44 piezas.
+Final Linea 3: 21 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 132 piezas.
-Linea 1: 1 piezas.
-Linea 2: 0 piezas.
-Linea 3: 0 piezas.
-TOTAL: 133 piezas.
-Linea 1: 2 piezas.
-Linea 2: 0 piezas.
-Linea 3: 0 piezas.
-TOTAL: 134 piezas.
-Final Linea 1: 65 piezas.
-Final Linea 2: 44 piezas.
-Final Linea 3: 22 piezas.
-Linea 1: 2 piezas.
+Linea 1: 0 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
-TOTAL: 135 piezas.
-Final Linea 1: 65 piezas.
+TOTAL: 133 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 134 piezas.
+Final Linea 1: 66 piezas.
 Final Linea 2: 45 piezas.
-Final Linea 3: 22 piezas.
+Final Linea 3: 21 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 135 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 136 piezas.
-Final Linea 1: 65 piezas.
+Final Linea 1: 66 piezas.
 Final Linea 2: 46 piezas.
-Final Linea 3: 22 piezas.
+Final Linea 3: 21 piezas.
 Final Linea 1: 66 piezas.
 Final Linea 2: 46 piezas.
 Final Linea 3: 22 piezas.
-Linea 1: 3 piezas.
+Linea 1: 2 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 137 piezas.
-Final Linea 1: 67 piezas.
-Final Linea 2: 46 piezas.
-Final Linea 3: 22 piezas.
-Final Linea 1: 68 piezas.
-Final Linea 2: 46 piezas.
-Final Linea 3: 22 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 138 piezas.
-Linea 1: 1 piezas.
-Linea 2: 0 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 139 piezas.
-Linea 1: 2 piezas.
-Linea 2: 0 piezas.
-Linea 3: 0 piezas.
-TOTAL: 140 piezas.
-Final Linea 1: 69 piezas.
+Final Linea 1: 67 piezas.
 Final Linea 2: 46 piezas.
 Final Linea 3: 22 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 141 piezas.
-Final Linea 1: 70 piezas.
-Final Linea 2: 46 piezas.
-Final Linea 3: 22 piezas.
-Final Linea 1: 70 piezas.
-Final Linea 2: 46 piezas.
-Final Linea 3: 23 piezas.
-Linea 1: 3 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 142 piezas.
-Final Linea 1: 70 piezas.
+Final Linea 1: 67 piezas.
 Final Linea 2: 47 piezas.
-Final Linea 3: 23 piezas.
-Linea 1: 3 piezas.
+Final Linea 3: 22 piezas.
+Linea 1: 0 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
-TOTAL: 143 piezas.
-Final Linea 1: 70 piezas.
+TOTAL: 140 piezas.
+Final Linea 1: 67 piezas.
+Final Linea 2: 48 piezas.
+Final Linea 3: 22 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 141 piezas.
+Final Linea 1: 68 piezas.
+Final Linea 2: 48 piezas.
+Final Linea 3: 22 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 142 piezas.
+Final Linea 1: 69 piezas.
+Final Linea 2: 48 piezas.
+Final Linea 3: 22 piezas.
+Final Linea 1: 69 piezas.
 Final Linea 2: 48 piezas.
 Final Linea 3: 23 piezas.
-Final Linea 1: 71 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 143 piezas.
+Final Linea 1: 70 piezas.
 Final Linea 2: 48 piezas.
 Final Linea 3: 23 piezas.
 Linea 1: 3 piezas.
@@ -1008,61 +1005,64 @@ Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 146 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 147 piezas.
-Final Linea 1: 72 piezas.
+Final Linea 1: 71 piezas.
 Final Linea 2: 48 piezas.
 Final Linea 3: 23 piezas.
-Final Linea 1: 72 piezas.
+Final Linea 1: 71 piezas.
 Final Linea 2: 49 piezas.
 Final Linea 3: 23 piezas.
-Linea 1: 2 piezas.
+Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
-TOTAL: 148 piezas.
+TOTAL: 147 piezas.
+Final Linea 1: 71 piezas.
+Final Linea 2: 50 piezas.
+Final Linea 3: 23 piezas.
 Final Linea 1: 72 piezas.
 Final Linea 2: 50 piezas.
 Final Linea 3: 23 piezas.
 Final Linea 1: 72 piezas.
 Final Linea 2: 50 piezas.
 Final Linea 3: 24 piezas.
-Linea 1: 3 piezas.
+Linea 1: 1 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 148 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
 TOTAL: 149 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 150 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 151 piezas.
 Final Linea 1: 73 piezas.
 Final Linea 2: 50 piezas.
 Final Linea 3: 24 piezas.
-Linea 1: 1 piezas.
-Linea 2: 0 piezas.
-Linea 3: 0 piezas.
-TOTAL: 151 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 152 piezas.
-Final Linea 1: 74 piezas.
-Final Linea 2: 50 piezas.
-Final Linea 3: 24 piezas.
-Final Linea 1: 74 piezas.
+Final Linea 1: 73 piezas.
 Final Linea 2: 51 piezas.
 Final Linea 3: 24 piezas.
-Linea 1: 1 piezas.
+Linea 1: 0 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
-TOTAL: 153 piezas.
+TOTAL: 152 piezas.
+Final Linea 1: 73 piezas.
+Final Linea 2: 52 piezas.
+Final Linea 3: 24 piezas.
 Final Linea 1: 74 piezas.
 Final Linea 2: 52 piezas.
 Final Linea 3: 24 piezas.
 Final Linea 1: 74 piezas.
 Final Linea 2: 52 piezas.
 Final Linea 3: 25 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 153 piezas.
 Linea 1: 1 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
@@ -1071,54 +1071,54 @@ Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 155 piezas.
-Final Linea 1: 75 piezas.
-Final Linea 2: 52 piezas.
-Final Linea 3: 25 piezas.
-Final Linea 1: 75 piezas.
-Final Linea 2: 52 piezas.
-Final Linea 3: 26 piezas.
-Final Linea 1: 76 piezas.
-Final Linea 2: 52 piezas.
-Final Linea 3: 26 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 156 piezas.
+Final Linea 1: 75 piezas.
+Final Linea 2: 52 piezas.
+Final Linea 3: 25 piezas.
+Final Linea 1: 76 piezas.
+Final Linea 2: 52 piezas.
+Final Linea 3: 25 piezas.
 Linea 1: 1 piezas.
 Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 157 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
+Linea 1: 2 piezas.
+Linea 2: 0 piezas.
 Linea 3: 0 piezas.
 TOTAL: 158 piezas.
+Final Linea 1: 77 piezas.
+Final Linea 2: 52 piezas.
+Final Linea 3: 25 piezas.
 Linea 1: 2 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 159 piezas.
-Final Linea 1: 77 piezas.
+Final Linea 1: 78 piezas.
 Final Linea 2: 52 piezas.
-Final Linea 3: 26 piezas.
-Final Linea 1: 77 piezas.
+Final Linea 3: 25 piezas.
+Final Linea 1: 78 piezas.
 Final Linea 2: 53 piezas.
-Final Linea 3: 26 piezas.
+Final Linea 3: 25 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
 TOTAL: 160 piezas.
-Final Linea 1: 77 piezas.
+Final Linea 1: 78 piezas.
 Final Linea 2: 54 piezas.
-Final Linea 3: 26 piezas.
-Linea 1: 3 piezas.
-Linea 2: 2 piezas.
-Linea 3: 0 piezas.
-TOTAL: 161 piezas.
+Final Linea 3: 25 piezas.
 Final Linea 1: 78 piezas.
 Final Linea 2: 54 piezas.
 Final Linea 3: 26 piezas.
 Final Linea 1: 79 piezas.
 Final Linea 2: 54 piezas.
 Final Linea 3: 26 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 161 piezas.
 Final Linea 1: 80 piezas.
 Final Linea 2: 54 piezas.
 Final Linea 3: 26 piezas.
@@ -1134,16 +1134,16 @@ Linea 1: 1 piezas.
 Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 164 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 165 piezas.
 Final Linea 1: 81 piezas.
 Final Linea 2: 54 piezas.
 Final Linea 3: 26 piezas.
 Final Linea 1: 81 piezas.
 Final Linea 2: 55 piezas.
 Final Linea 3: 26 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 165 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
@@ -1154,45 +1154,1606 @@ Final Linea 3: 26 piezas.
 Final Linea 1: 81 piezas.
 Final Linea 2: 56 piezas.
 Final Linea 3: 27 piezas.
-Linea 1: 3 piezas.
+Linea 1: 2 piezas.
 Linea 2: 2 piezas.
-Linea 3: 0 piezas.
+Linea 3: 1 piezas.
 TOTAL: 167 piezas.
 Final Linea 1: 82 piezas.
-Final Linea 2: 56 piezas.
-Final Linea 3: 27 piezas.
-Final Linea 1: 83 piezas.
-Final Linea 2: 56 piezas.
-Final Linea 3: 27 piezas.
-Final Linea 1: 84 piezas.
 Final Linea 2: 56 piezas.
 Final Linea 3: 27 piezas.
 Linea 1: 3 piezas.
 Linea 2: 2 piezas.
 Linea 3: 1 piezas.
 TOTAL: 168 piezas.
-Linea 1: 1 piezas.
-Linea 2: 0 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
 Linea 3: 0 piezas.
 TOTAL: 169 piezas.
-Linea 1: 1 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 170 piezas.
-Linea 1: 2 piezas.
-Linea 2: 1 piezas.
-Linea 3: 0 piezas.
-TOTAL: 171 piezas.
-Final Linea 1: 84 piezas.
+Final Linea 1: 82 piezas.
 Final Linea 2: 57 piezas.
 Final Linea 3: 27 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 170 piezas.
+Final Linea 1: 82 piezas.
+Final Linea 2: 58 piezas.
+Final Linea 3: 27 piezas.
+Final Linea 1: 82 piezas.
+Final Linea 2: 58 piezas.
+Final Linea 3: 28 piezas.
+Final Linea 1: 83 piezas.
+Final Linea 2: 58 piezas.
+Final Linea 3: 28 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 171 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 172 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 173 piezas.
+Final Linea 1: 84 piezas.
+Final Linea 2: 58 piezas.
+Final Linea 3: 28 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 174 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 175 piezas.
+Final Linea 1: 85 piezas.
+Final Linea 2: 58 piezas.
+Final Linea 3: 28 piezas.
+Final Linea 1: 85 piezas.
+Final Linea 2: 59 piezas.
+Final Linea 3: 28 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 176 piezas.
+Final Linea 1: 85 piezas.
+Final Linea 2: 60 piezas.
+Final Linea 3: 28 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 177 piezas.
+Final Linea 1: 86 piezas.
+Final Linea 2: 60 piezas.
+Final Linea 3: 28 piezas.
 Linea 1: 2 piezas.
 Linea 2: 2 piezas.
 Linea 3: 0 piezas.
-TOTAL: 172 piezas.
-Final Linea 1: 84 piezas.
-Final Linea 2: 58 piezas.
-Final Linea 3: 27 piezas.
-Final Linea 1: 85 piezas.
-Final Linea 2: 58 piezas.
-Final Linea 3: 27 piezas.
+TOTAL: 178 piezas.
+Final Linea 1: 87 piezas.
+Final Linea 2: 60 piezas.
+Final Linea 3: 28 piezas.
+Final Linea 1: 87 piezas.
+Final Linea 2: 60 piezas.
+Final Linea 3: 29 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 179 piezas.
+Final Linea 1: 88 piezas.
+Final Linea 2: 60 piezas.
+Final Linea 3: 29 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 180 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 181 piezas.
+Final Linea 1: 88 piezas.
+Final Linea 2: 61 piezas.
+Final Linea 3: 29 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 182 piezas.
+Final Linea 1: 88 piezas.
+Final Linea 2: 62 piezas.
+Final Linea 3: 29 piezas.
+Final Linea 1: 89 piezas.
+Final Linea 2: 62 piezas.
+Final Linea 3: 29 piezas.
+Final Linea 1: 89 piezas.
+Final Linea 2: 62 piezas.
+Final Linea 3: 30 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 183 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 184 piezas.
+Final Linea 1: 90 piezas.
+Final Linea 2: 62 piezas.
+Final Linea 3: 30 piezas.
+Final Linea 1: 90 piezas.
+Final Linea 2: 62 piezas.
+Final Linea 3: 31 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 185 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 186 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 187 piezas.
+Final Linea 1: 91 piezas.
+Final Linea 2: 62 piezas.
+Final Linea 3: 31 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 188 piezas.
+Final Linea 1: 91 piezas.
+Final Linea 2: 63 piezas.
+Final Linea 3: 31 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 189 piezas.
+Final Linea 1: 91 piezas.
+Final Linea 2: 64 piezas.
+Final Linea 3: 31 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 190 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 191 piezas.
+Final Linea 1: 92 piezas.
+Final Linea 2: 64 piezas.
+Final Linea 3: 31 piezas.
+Final Linea 1: 93 piezas.
+Final Linea 2: 64 piezas.
+Final Linea 3: 31 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 192 piezas.
+Final Linea 1: 93 piezas.
+Final Linea 2: 64 piezas.
+Final Linea 3: 32 piezas.
+Final Linea 1: 94 piezas.
+Final Linea 2: 64 piezas.
+Final Linea 3: 32 piezas.
+Final Linea 1: 95 piezas.
+Final Linea 2: 64 piezas.
+Final Linea 3: 32 piezas.
+Final Linea 1: 96 piezas.
+Final Linea 2: 64 piezas.
+Final Linea 3: 32 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 193 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 194 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 195 piezas.
+Final Linea 1: 96 piezas.
+Final Linea 2: 65 piezas.
+Final Linea 3: 32 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 196 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 197 piezas.
+Final Linea 1: 96 piezas.
+Final Linea 2: 66 piezas.
+Final Linea 3: 32 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 198 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 199 piezas.
+Final Linea 1: 97 piezas.
+Final Linea 2: 66 piezas.
+Final Linea 3: 32 piezas.
+Final Linea 1: 97 piezas.
+Final Linea 2: 67 piezas.
+Final Linea 3: 32 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 200 piezas.
+Final Linea 1: 97 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 32 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 201 piezas.
+Final Linea 1: 98 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 32 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 202 piezas.
+Final Linea 1: 99 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 32 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 203 piezas.
+Final Linea 1: 100 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 32 piezas.
+Final Linea 1: 101 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 32 piezas.
+Final Linea 1: 101 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 33 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 204 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 205 piezas.
+Final Linea 1: 102 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 33 piezas.
+Final Linea 1: 102 piezas.
+Final Linea 2: 68 piezas.
+Final Linea 3: 34 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 206 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 207 piezas.
+Final Linea 1: 102 piezas.
+Final Linea 2: 69 piezas.
+Final Linea 3: 34 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 208 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 209 piezas.
+Final Linea 1: 102 piezas.
+Final Linea 2: 70 piezas.
+Final Linea 3: 34 piezas.
+Final Linea 1: 103 piezas.
+Final Linea 2: 70 piezas.
+Final Linea 3: 34 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 210 piezas.
+Final Linea 1: 103 piezas.
+Final Linea 2: 70 piezas.
+Final Linea 3: 35 piezas.
+Final Linea 1: 104 piezas.
+Final Linea 2: 70 piezas.
+Final Linea 3: 35 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 211 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 212 piezas.
+Final Linea 1: 104 piezas.
+Final Linea 2: 71 piezas.
+Final Linea 3: 35 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 213 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 214 piezas.
+Final Linea 1: 104 piezas.
+Final Linea 2: 72 piezas.
+Final Linea 3: 35 piezas.
+Final Linea 1: 105 piezas.
+Final Linea 2: 72 piezas.
+Final Linea 3: 35 piezas.
+Final Linea 1: 105 piezas.
+Final Linea 2: 72 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 215 piezas.
+Final Linea 1: 106 piezas.
+Final Linea 2: 72 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 216 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 217 piezas.
+Final Linea 1: 106 piezas.
+Final Linea 2: 73 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 218 piezas.
+Final Linea 1: 107 piezas.
+Final Linea 2: 73 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 219 piezas.
+Final Linea 1: 107 piezas.
+Final Linea 2: 74 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 220 piezas.
+Final Linea 1: 108 piezas.
+Final Linea 2: 74 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 221 piezas.
+Final Linea 1: 109 piezas.
+Final Linea 2: 74 piezas.
+Final Linea 3: 36 piezas.
+Final Linea 1: 110 piezas.
+Final Linea 2: 74 piezas.
+Final Linea 3: 36 piezas.
+Final Linea 1: 111 piezas.
+Final Linea 2: 74 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 222 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 223 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 224 piezas.
+Final Linea 1: 111 piezas.
+Final Linea 2: 75 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 225 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 226 piezas.
+Final Linea 1: 111 piezas.
+Final Linea 2: 76 piezas.
+Final Linea 3: 36 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 227 piezas.
+Final Linea 1: 112 piezas.
+Final Linea 2: 76 piezas.
+Final Linea 3: 36 piezas.
+Final Linea 1: 113 piezas.
+Final Linea 2: 76 piezas.
+Final Linea 3: 36 piezas.
+Final Linea 1: 113 piezas.
+Final Linea 2: 76 piezas.
+Final Linea 3: 37 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 228 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 229 piezas.
+Final Linea 1: 113 piezas.
+Final Linea 2: 77 piezas.
+Final Linea 3: 37 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 230 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 231 piezas.
+Final Linea 1: 113 piezas.
+Final Linea 2: 78 piezas.
+Final Linea 3: 37 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 232 piezas.
+Final Linea 1: 114 piezas.
+Final Linea 2: 78 piezas.
+Final Linea 3: 37 piezas.
+Final Linea 1: 115 piezas.
+Final Linea 2: 78 piezas.
+Final Linea 3: 37 piezas.
+Final Linea 1: 115 piezas.
+Final Linea 2: 78 piezas.
+Final Linea 3: 38 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 233 piezas.
+Final Linea 1: 116 piezas.
+Final Linea 2: 78 piezas.
+Final Linea 3: 38 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 234 piezas.
+Final Linea 1: 116 piezas.
+Final Linea 2: 78 piezas.
+Final Linea 3: 39 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 235 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 236 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 237 piezas.
+Final Linea 1: 117 piezas.
+Final Linea 2: 78 piezas.
+Final Linea 3: 39 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 238 piezas.
+Final Linea 1: 117 piezas.
+Final Linea 2: 79 piezas.
+Final Linea 3: 39 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 239 piezas.
+Final Linea 1: 117 piezas.
+Final Linea 2: 80 piezas.
+Final Linea 3: 39 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 240 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 241 piezas.
+Final Linea 1: 118 piezas.
+Final Linea 2: 80 piezas.
+Final Linea 3: 39 piezas.
+Final Linea 1: 118 piezas.
+Final Linea 2: 81 piezas.
+Final Linea 3: 39 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 242 piezas.
+Final Linea 1: 118 piezas.
+Final Linea 2: 82 piezas.
+Final Linea 3: 39 piezas.
+Final Linea 1: 119 piezas.
+Final Linea 2: 82 piezas.
+Final Linea 3: 39 piezas.
+Final Linea 1: 119 piezas.
+Final Linea 2: 82 piezas.
+Final Linea 3: 40 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 243 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 244 piezas.
+Final Linea 1: 120 piezas.
+Final Linea 2: 82 piezas.
+Final Linea 3: 40 piezas.
+Final Linea 1: 120 piezas.
+Final Linea 2: 82 piezas.
+Final Linea 3: 41 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 245 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 246 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 247 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 248 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 249 piezas.
+Final Linea 1: 121 piezas.
+Final Linea 2: 82 piezas.
+Final Linea 3: 41 piezas.
+Final Linea 1: 122 piezas.
+Final Linea 2: 82 piezas.
+Final Linea 3: 41 piezas.
+Final Linea 1: 122 piezas.
+Final Linea 2: 83 piezas.
+Final Linea 3: 41 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 250 piezas.
+Final Linea 1: 122 piezas.
+Final Linea 2: 84 piezas.
+Final Linea 3: 41 piezas.
+Final Linea 1: 123 piezas.
+Final Linea 2: 84 piezas.
+Final Linea 3: 41 piezas.
+Final Linea 1: 123 piezas.
+Final Linea 2: 84 piezas.
+Final Linea 3: 42 piezas.
+Final Linea 1: 124 piezas.
+Final Linea 2: 84 piezas.
+Final Linea 3: 42 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 251 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 252 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 253 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 254 piezas.
+Final Linea 1: 124 piezas.
+Final Linea 2: 85 piezas.
+Final Linea 3: 42 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 255 piezas.
+Final Linea 1: 124 piezas.
+Final Linea 2: 86 piezas.
+Final Linea 3: 42 piezas.
+Final Linea 1: 124 piezas.
+Final Linea 2: 86 piezas.
+Final Linea 3: 43 piezas.
+Final Linea 1: 125 piezas.
+Final Linea 2: 86 piezas.
+Final Linea 3: 43 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 256 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 257 piezas.
+Final Linea 1: 126 piezas.
+Final Linea 2: 86 piezas.
+Final Linea 3: 43 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 258 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 259 piezas.
+Final Linea 1: 127 piezas.
+Final Linea 2: 86 piezas.
+Final Linea 3: 43 piezas.
+Final Linea 1: 127 piezas.
+Final Linea 2: 87 piezas.
+Final Linea 3: 43 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 260 piezas.
+Final Linea 1: 128 piezas.
+Final Linea 2: 87 piezas.
+Final Linea 3: 43 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 261 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 262 piezas.
+Final Linea 1: 128 piezas.
+Final Linea 2: 88 piezas.
+Final Linea 3: 43 piezas.
+Final Linea 1: 128 piezas.
+Final Linea 2: 88 piezas.
+Final Linea 3: 44 piezas.
+Final Linea 1: 129 piezas.
+Final Linea 2: 88 piezas.
+Final Linea 3: 44 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 263 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 264 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 265 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 266 piezas.
+Final Linea 1: 130 piezas.
+Final Linea 2: 88 piezas.
+Final Linea 3: 44 piezas.
+Final Linea 1: 130 piezas.
+Final Linea 2: 89 piezas.
+Final Linea 3: 44 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 267 piezas.
+Final Linea 1: 130 piezas.
+Final Linea 2: 90 piezas.
+Final Linea 3: 44 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 268 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 269 piezas.
+Final Linea 1: 131 piezas.
+Final Linea 2: 90 piezas.
+Final Linea 3: 44 piezas.
+Final Linea 1: 132 piezas.
+Final Linea 2: 90 piezas.
+Final Linea 3: 44 piezas.
+Final Linea 1: 133 piezas.
+Final Linea 2: 90 piezas.
+Final Linea 3: 44 piezas.
+Final Linea 1: 134 piezas.
+Final Linea 2: 90 piezas.
+Final Linea 3: 44 piezas.
+Final Linea 1: 134 piezas.
+Final Linea 2: 90 piezas.
+Final Linea 3: 45 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 270 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 271 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 272 piezas.
+Final Linea 1: 134 piezas.
+Final Linea 2: 91 piezas.
+Final Linea 3: 45 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 273 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 274 piezas.
+Final Linea 1: 134 piezas.
+Final Linea 2: 92 piezas.
+Final Linea 3: 45 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 275 piezas.
+Final Linea 1: 135 piezas.
+Final Linea 2: 92 piezas.
+Final Linea 3: 45 piezas.
+Final Linea 1: 136 piezas.
+Final Linea 2: 92 piezas.
+Final Linea 3: 45 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 276 piezas.
+Final Linea 1: 136 piezas.
+Final Linea 2: 92 piezas.
+Final Linea 3: 46 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 277 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 278 piezas.
+Final Linea 1: 137 piezas.
+Final Linea 2: 92 piezas.
+Final Linea 3: 46 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 279 piezas.
+Final Linea 1: 137 piezas.
+Final Linea 2: 93 piezas.
+Final Linea 3: 46 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 280 piezas.
+Final Linea 1: 137 piezas.
+Final Linea 2: 94 piezas.
+Final Linea 3: 46 piezas.
+Final Linea 1: 137 piezas.
+Final Linea 2: 94 piezas.
+Final Linea 3: 47 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 281 piezas.
+Final Linea 1: 138 piezas.
+Final Linea 2: 94 piezas.
+Final Linea 3: 47 piezas.
+Final Linea 1: 139 piezas.
+Final Linea 2: 94 piezas.
+Final Linea 3: 47 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 282 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 283 piezas.
+Final Linea 1: 140 piezas.
+Final Linea 2: 94 piezas.
+Final Linea 3: 47 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 284 piezas.
+Final Linea 1: 140 piezas.
+Final Linea 2: 95 piezas.
+Final Linea 3: 47 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 285 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 286 piezas.
+Final Linea 1: 140 piezas.
+Final Linea 2: 96 piezas.
+Final Linea 3: 47 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 287 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 288 piezas.
+Final Linea 1: 141 piezas.
+Final Linea 2: 96 piezas.
+Final Linea 3: 47 piezas.
+Final Linea 1: 141 piezas.
+Final Linea 2: 96 piezas.
+Final Linea 3: 48 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 289 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 290 piezas.
+Final Linea 1: 142 piezas.
+Final Linea 2: 96 piezas.
+Final Linea 3: 48 piezas.
+Final Linea 1: 143 piezas.
+Final Linea 2: 96 piezas.
+Final Linea 3: 48 piezas.
+Final Linea 1: 143 piezas.
+Final Linea 2: 97 piezas.
+Final Linea 3: 48 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 291 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 292 piezas.
+Final Linea 1: 143 piezas.
+Final Linea 2: 98 piezas.
+Final Linea 3: 48 piezas.
+Final Linea 1: 144 piezas.
+Final Linea 2: 98 piezas.
+Final Linea 3: 48 piezas.
+Final Linea 1: 144 piezas.
+Final Linea 2: 98 piezas.
+Final Linea 3: 49 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 293 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 294 piezas.
+Final Linea 1: 145 piezas.
+Final Linea 2: 98 piezas.
+Final Linea 3: 49 piezas.
+Linea 1: 0 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 295 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 1 piezas.
+TOTAL: 296 piezas.
+Final Linea 1: 146 piezas.
+Final Linea 2: 98 piezas.
+Final Linea 3: 49 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 297 piezas.
+Final Linea 1: 147 piezas.
+Final Linea 2: 98 piezas.
+Final Linea 3: 49 piezas.
+Final Linea 1: 147 piezas.
+Final Linea 2: 98 piezas.
+Final Linea 3: 50 piezas.
+Final Linea 1: 147 piezas.
+Final Linea 2: 99 piezas.
+Final Linea 3: 50 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 298 piezas.
+Final Linea 1: 147 piezas.
+Final Linea 2: 100 piezas.
+Final Linea 3: 50 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 299 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 300 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 301 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 302 piezas.
+Final Linea 1: 148 piezas.
+Final Linea 2: 100 piezas.
+Final Linea 3: 50 piezas.
+Final Linea 1: 148 piezas.
+Final Linea 2: 101 piezas.
+Final Linea 3: 50 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 303 piezas.
+Final Linea 1: 148 piezas.
+Final Linea 2: 102 piezas.
+Final Linea 3: 50 piezas.
+Final Linea 1: 149 piezas.
+Final Linea 2: 102 piezas.
+Final Linea 3: 50 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 304 piezas.
+Final Linea 1: 150 piezas.
+Final Linea 2: 102 piezas.
+Final Linea 3: 50 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 305 piezas.
+Final Linea 1: 151 piezas.
+Final Linea 2: 102 piezas.
+Final Linea 3: 50 piezas.
+Final Linea 1: 152 piezas.
+Final Linea 2: 102 piezas.
+Final Linea 3: 50 piezas.
+Final Linea 1: 153 piezas.
+Final Linea 2: 102 piezas.
+Final Linea 3: 50 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 306 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 307 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 308 piezas.
+Final Linea 1: 153 piezas.
+Final Linea 2: 103 piezas.
+Final Linea 3: 50 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 309 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 310 piezas.
+Final Linea 1: 153 piezas.
+Final Linea 2: 104 piezas.
+Final Linea 3: 50 piezas.
+Final Linea 1: 154 piezas.
+Final Linea 2: 104 piezas.
+Final Linea 3: 50 piezas.
+Final Linea 1: 154 piezas.
+Final Linea 2: 104 piezas.
+Final Linea 3: 51 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 311 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 312 piezas.
+Final Linea 1: 155 piezas.
+Final Linea 2: 104 piezas.
+Final Linea 3: 51 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 313 piezas.
+Final Linea 1: 155 piezas.
+Final Linea 2: 105 piezas.
+Final Linea 3: 51 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 314 piezas.
+Final Linea 1: 155 piezas.
+Final Linea 2: 105 piezas.
+Final Linea 3: 52 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 315 piezas.
+Final Linea 1: 155 piezas.
+Final Linea 2: 106 piezas.
+Final Linea 3: 52 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 316 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 317 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 318 piezas.
+Final Linea 1: 156 piezas.
+Final Linea 2: 106 piezas.
+Final Linea 3: 52 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 319 piezas.
+Final Linea 1: 157 piezas.
+Final Linea 2: 106 piezas.
+Final Linea 3: 52 piezas.
+Final Linea 1: 157 piezas.
+Final Linea 2: 107 piezas.
+Final Linea 3: 52 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 320 piezas.
+Final Linea 1: 157 piezas.
+Final Linea 2: 108 piezas.
+Final Linea 3: 52 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 321 piezas.
+Final Linea 1: 158 piezas.
+Final Linea 2: 108 piezas.
+Final Linea 3: 52 piezas.
+Final Linea 1: 158 piezas.
+Final Linea 2: 108 piezas.
+Final Linea 3: 53 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 322 piezas.
+Final Linea 1: 159 piezas.
+Final Linea 2: 108 piezas.
+Final Linea 3: 53 piezas.
+Final Linea 1: 160 piezas.
+Final Linea 2: 108 piezas.
+Final Linea 3: 53 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 323 piezas.
+Final Linea 1: 161 piezas.
+Final Linea 2: 108 piezas.
+Final Linea 3: 53 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 324 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 325 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 326 piezas.
+Final Linea 1: 162 piezas.
+Final Linea 2: 108 piezas.
+Final Linea 3: 53 piezas.
+Final Linea 1: 162 piezas.
+Final Linea 2: 109 piezas.
+Final Linea 3: 53 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 327 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 328 piezas.
+Final Linea 1: 162 piezas.
+Final Linea 2: 110 piezas.
+Final Linea 3: 53 piezas.
+Final Linea 1: 162 piezas.
+Final Linea 2: 110 piezas.
+Final Linea 3: 54 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 329 piezas.
+Final Linea 1: 163 piezas.
+Final Linea 2: 110 piezas.
+Final Linea 3: 54 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 330 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 331 piezas.
+Final Linea 1: 163 piezas.
+Final Linea 2: 111 piezas.
+Final Linea 3: 54 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 332 piezas.
+Final Linea 1: 163 piezas.
+Final Linea 2: 112 piezas.
+Final Linea 3: 54 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 333 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 334 piezas.
+Final Linea 1: 164 piezas.
+Final Linea 2: 112 piezas.
+Final Linea 3: 54 piezas.
+Final Linea 1: 165 piezas.
+Final Linea 2: 112 piezas.
+Final Linea 3: 54 piezas.
+Final Linea 1: 165 piezas.
+Final Linea 2: 112 piezas.
+Final Linea 3: 55 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 335 piezas.
+Final Linea 1: 166 piezas.
+Final Linea 2: 112 piezas.
+Final Linea 3: 55 piezas.
+Final Linea 1: 167 piezas.
+Final Linea 2: 112 piezas.
+Final Linea 3: 55 piezas.
+Final Linea 1: 168 piezas.
+Final Linea 2: 112 piezas.
+Final Linea 3: 55 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 336 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 337 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 338 piezas.
+Final Linea 1: 168 piezas.
+Final Linea 2: 113 piezas.
+Final Linea 3: 55 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 339 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 340 piezas.
+Final Linea 1: 168 piezas.
+Final Linea 2: 114 piezas.
+Final Linea 3: 55 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 341 piezas.
+Final Linea 1: 169 piezas.
+Final Linea 2: 114 piezas.
+Final Linea 3: 55 piezas.
+Final Linea 1: 169 piezas.
+Final Linea 2: 114 piezas.
+Final Linea 3: 56 piezas.
+Final Linea 1: 170 piezas.
+Final Linea 2: 114 piezas.
+Final Linea 3: 56 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 342 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 343 piezas.
+Linea 1: 2 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 344 piezas.
+Final Linea 1: 171 piezas.
+Final Linea 2: 114 piezas.
+Final Linea 3: 56 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 345 piezas.
+Final Linea 1: 171 piezas.
+Final Linea 2: 115 piezas.
+Final Linea 3: 56 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 346 piezas.
+Final Linea 1: 171 piezas.
+Final Linea 2: 116 piezas.
+Final Linea 3: 56 piezas.
+Final Linea 1: 172 piezas.
+Final Linea 2: 116 piezas.
+Final Linea 3: 56 piezas.
+Final Linea 1: 172 piezas.
+Final Linea 2: 116 piezas.
+Final Linea 3: 57 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 347 piezas.
+Final Linea 1: 173 piezas.
+Final Linea 2: 116 piezas.
+Final Linea 3: 57 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 348 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 349 piezas.
+Final Linea 1: 173 piezas.
+Final Linea 2: 117 piezas.
+Final Linea 3: 57 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 350 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 351 piezas.
+Final Linea 1: 173 piezas.
+Final Linea 2: 118 piezas.
+Final Linea 3: 57 piezas.
+Final Linea 1: 174 piezas.
+Final Linea 2: 118 piezas.
+Final Linea 3: 57 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 352 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 353 piezas.
+Final Linea 1: 175 piezas.
+Final Linea 2: 118 piezas.
+Final Linea 3: 57 piezas.
+Final Linea 1: 175 piezas.
+Final Linea 2: 118 piezas.
+Final Linea 3: 58 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 354 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 355 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 356 piezas.
+Final Linea 1: 176 piezas.
+Final Linea 2: 118 piezas.
+Final Linea 3: 58 piezas.
+Final Linea 1: 176 piezas.
+Final Linea 2: 119 piezas.
+Final Linea 3: 58 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 357 piezas.
+Final Linea 1: 176 piezas.
+Final Linea 2: 120 piezas.
+Final Linea 3: 58 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 358 piezas.
+Final Linea 1: 177 piezas.
+Final Linea 2: 120 piezas.
+Final Linea 3: 58 piezas.
+Final Linea 1: 178 piezas.
+Final Linea 2: 120 piezas.
+Final Linea 3: 58 piezas.
+Final Linea 1: 178 piezas.
+Final Linea 2: 120 piezas.
+Final Linea 3: 59 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 359 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 360 piezas.
+Final Linea 1: 179 piezas.
+Final Linea 2: 120 piezas.
+Final Linea 3: 59 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 361 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 362 piezas.
+Linea 1: 2 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 363 piezas.
+Final Linea 1: 180 piezas.
+Final Linea 2: 120 piezas.
+Final Linea 3: 59 piezas.
+Final Linea 1: 180 piezas.
+Final Linea 2: 121 piezas.
+Final Linea 3: 59 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 364 piezas.
+Final Linea 1: 180 piezas.
+Final Linea 2: 122 piezas.
+Final Linea 3: 59 piezas.
+Final Linea 1: 180 piezas.
+Final Linea 2: 122 piezas.
+Final Linea 3: 60 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 365 piezas.
+Final Linea 1: 181 piezas.
+Final Linea 2: 122 piezas.
+Final Linea 3: 60 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 366 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 367 piezas.
+Final Linea 1: 182 piezas.
+Final Linea 2: 122 piezas.
+Final Linea 3: 60 piezas.
+Final Linea 1: 182 piezas.
+Final Linea 2: 122 piezas.
+Final Linea 3: 61 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 368 piezas.
+Final Linea 1: 182 piezas.
+Final Linea 2: 123 piezas.
+Final Linea 3: 61 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 369 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 370 piezas.
+Final Linea 1: 182 piezas.
+Final Linea 2: 124 piezas.
+Final Linea 3: 61 piezas.
+Final Linea 1: 183 piezas.
+Final Linea 2: 124 piezas.
+Final Linea 3: 61 piezas.
+Final Linea 1: 183 piezas.
+Final Linea 2: 124 piezas.
+Final Linea 3: 62 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 371 piezas.
+Final Linea 1: 184 piezas.
+Final Linea 2: 124 piezas.
+Final Linea 3: 62 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 372 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 373 piezas.
+Final Linea 1: 185 piezas.
+Final Linea 2: 124 piezas.
+Final Linea 3: 62 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 1 piezas.
+TOTAL: 374 piezas.
+Final Linea 1: 185 piezas.
+Final Linea 2: 125 piezas.
+Final Linea 3: 62 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 375 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 376 piezas.
+Final Linea 1: 185 piezas.
+Final Linea 2: 126 piezas.
+Final Linea 3: 62 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 377 piezas.
+Final Linea 1: 186 piezas.
+Final Linea 2: 126 piezas.
+Final Linea 3: 62 piezas.
+Final Linea 1: 187 piezas.
+Final Linea 2: 126 piezas.
+Final Linea 3: 62 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 378 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 379 piezas.
+Final Linea 1: 187 piezas.
+Final Linea 2: 127 piezas.
+Final Linea 3: 62 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 380 piezas.
+Final Linea 1: 188 piezas.
+Final Linea 2: 127 piezas.
+Final Linea 3: 62 piezas.
+Final Linea 1: 188 piezas.
+Final Linea 2: 127 piezas.
+Final Linea 3: 63 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 381 piezas.
+Final Linea 1: 188 piezas.
+Final Linea 2: 128 piezas.
+Final Linea 3: 63 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 382 piezas.
+Final Linea 1: 189 piezas.
+Final Linea 2: 128 piezas.
+Final Linea 3: 63 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 383 piezas.
+Final Linea 1: 190 piezas.
+Final Linea 2: 128 piezas.
+Final Linea 3: 63 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 384 piezas.
+Linea 1: 0 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 385 piezas.
+Final Linea 1: 191 piezas.
+Final Linea 2: 128 piezas.
+Final Linea 3: 63 piezas.
+Final Linea 1: 191 piezas.
+Final Linea 2: 129 piezas.
+Final Linea 3: 63 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 386 piezas.
+Final Linea 1: 191 piezas.
+Final Linea 2: 129 piezas.
+Final Linea 3: 64 piezas.
+Linea 1: 0 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 387 piezas.
+Final Linea 1: 191 piezas.
+Final Linea 2: 130 piezas.
+Final Linea 3: 64 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 388 piezas.
+Final Linea 1: 191 piezas.
+Final Linea 2: 130 piezas.
+Final Linea 3: 65 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 389 piezas.
+Linea 1: 3 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 390 piezas.
+Linea 1: 1 piezas.
+Linea 2: 0 piezas.
+Linea 3: 0 piezas.
+TOTAL: 391 piezas.
+Final Linea 1: 192 piezas.
+Final Linea 2: 130 piezas.
+Final Linea 3: 65 piezas.
+Linea 1: 1 piezas.
+Linea 2: 1 piezas.
+Linea 3: 0 piezas.
+TOTAL: 392 piezas.
+Final Linea 1: 193 piezas.
+Final Linea 2: 130 piezas.
+Final Linea 3: 65 piezas.
+Final Linea 1: 193 piezas.
+Final Linea 2: 131 piezas.
+Final Linea 3: 65 piezas.
+Linea 1: 1 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 393 piezas.
+Final Linea 1: 193 piezas.
+Final Linea 2: 132 piezas.
+Final Linea 3: 65 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 0 piezas.
+TOTAL: 394 piezas.
+Final Linea 1: 194 piezas.
+Final Linea 2: 132 piezas.
+Final Linea 3: 65 piezas.
+Final Linea 1: 195 piezas.
+Final Linea 2: 132 piezas.
+Final Linea 3: 65 piezas.
+Final Linea 1: 196 piezas.
+Final Linea 2: 132 piezas.
+Final Linea 3: 65 piezas.
+Linea 1: 2 piezas.
+Linea 2: 2 piezas.
+Linea 3: 1 piezas.
+TOTAL: 395 piezas.

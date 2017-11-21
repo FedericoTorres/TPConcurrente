@@ -20,7 +20,7 @@ import java.util.Arrays;
 
 /**
  *
- * @author federico
+ * @author Leonardo Corrado & Federico Torres
  */
 public class Monitor 
 {

@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  *
- * @author leonardo
+ * @author Leonardo Corrado & Federico Torres
  */
 public class main {
 

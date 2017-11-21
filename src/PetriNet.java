@@ -10,7 +10,7 @@ import java.util.Set;
 
 /**
  *
- * @author Corrado, Leonardo y Torres, Federico
+ * @author Leonardo Corrado & Federico Torres
  */
 public class PetriNet 
 {

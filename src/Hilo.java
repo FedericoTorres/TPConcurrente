@@ -13,7 +13,7 @@ import java.util.Set;
 
 /**
  *
- * @author leo
+ * @author Leonardo Corrado & Federico Torres
  */
 public class Hilo implements Runnable
 {

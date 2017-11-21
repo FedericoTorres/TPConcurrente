@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Corrado, Leonardo y Torres, Federico
+ * @author Leonardo Corrado & Federico Torres
  */
 public class Tiempo 
 {
