@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 
 /*
- * Copyright (C) 2017 leo
+ * Copyright (C) 2017 Leonardo Corrado & Federico Torres
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -44,15 +44,18 @@ public class TestPInvariante
     public void testear() throws IOException
     {
         StringBuffer buffer = new StringBuffer();
-        String path1 = "/src/tpfinal_test/log_marcados.txt";
+        String path1 = "/src/datos/log_marcados.txt";
         String path = new File("").getAbsolutePath();
         buffer.append(path);
         buffer.append(path1);
         path1 = buffer.toString();
         BufferedReader br = null;
-        try {
+        try 
+        {
             br = new BufferedReader(new FileReader(path1));
-        } catch (FileNotFoundException ex) {
+        } 
+        catch (FileNotFoundException ex) 
+        {
             Logger.getLogger(TestPInvariante.class.getName()).log(Level.SEVERE, null, ex);
         }
 

@@ -39,47 +39,74 @@ public class main {
 
         System.out.println("Bienvenido al Trabajo Final de Programación"
                 + "  Concurrente de Corrado Leonardo & Torres Federico");
-        System.out.println("Elija una de las siguientes políticas:");
-        System.out.println("Ingrese 1 si desea:"
-                            + " 2 piezas de B por cada pieza de A y C");
-        System.out.println("Ingrese 2 si desea:" +
-                             " 3 piezas de A por cada pieza de B y C");
-        System.out.println("Ingrese 3 si desea:" +
-                             "una política de disparo equitativa");
-        System.out.print("Ingrese su elección: ");
-        int eleccion;
+        System.out.println("Usted puede elegir Testear una ejecución previa"
+                + " o puede realizar una nueva ejecución de la Red de Petri");
+        System.out.println("Por favor, tenga en cuenta que para Testear debe"
+                + " haber ejecutado anteriormente este programa.");
+        System.out.println("Si desea ejecutar la Red de Petri, por favor"
+                + " presione 1, si en cambio desea testear resultados previos"
+                   + " presione 2");
+        System.out.print("Ingrese su eleccion: ");
+        int num;
         while (!teclado.hasNextInt()) 
         {
             System.out.println("Ingrese un número por favor!");
             System.out.print("Ingrese su elección: ");
             teclado.nextLine();
         }
-        eleccion = teclado.nextInt();
-        System.out.println("Usted eligió la política n°: " + eleccion);
-        teclado.close();
+        num = teclado.nextInt();
+        System.out.println("Usted elegió la opción n°: " + num);
+        if (num == 1)
+        {
+            System.out.println("Elija una de las siguientes políticas:");
+            System.out.println("Ingrese 1 si desea:"
+                    + " 2 piezas de B por cada pieza de A y C");
+            System.out.println("Ingrese 2 si desea:"
+                    + " 3 piezas de A por cada pieza de B y C");
+            System.out.println("Ingrese 3 si desea:"
+                    + "una política de disparo equitativa");
+            System.out.print("Ingrese su elección: ");
+            int eleccion;
+            while (!teclado.hasNextInt()) 
+            {
+                System.out.println("Ingrese un número por favor!");
+                System.out.print("Ingrese su elección: ");
+                teclado.nextLine();
+            }
+            eleccion = teclado.nextInt();
+            System.out.println("Usted eligió la política n°: " + eleccion);
+            teclado.close();
+            PlazaAEstado plazas;
+            plazas = instanciarPlazaAEstado();
+            System.out.println("Ejecutando y Registrando en los logs.....");
+            TransicionAEvento transiciones = instanciarTransicionAEvento();
+            Monitor monitor = instanciarMonitor(plazas, transiciones, eleccion);
+            ArrayList<Thread> hilos = new ArrayList<>();
+            BufferedReader br = null;
+            br = new BufferedReader(new FileReader(path1));
+            for (int i = 0; i < 18; i++) 
+            {
+                String line = br.readLine();
+                String[] items = line.split(",");
+                List list = Arrays.asList(items);
+                Hilo hilo1 = new Hilo(monitor, transiciones.getKeys(), new ArrayList<>(list));
+                hilos.add(new Thread(hilo1));
+            }
+            br.close();
+            for (Thread aux : hilos) 
+            {
+                aux.start();
+            }   
+        }
+        else if (num == 2)
+        {
+            TestPInvariante test = new TestPInvariante ();
+            test.testear();
+        }
+        
           
         
-        PlazaAEstado plazas;
-        plazas = instanciarPlazaAEstado();
-        System.out.println("Ejecutando y Registrando en los logs.....");
-        TransicionAEvento transiciones = instanciarTransicionAEvento();
-        Monitor monitor = instanciarMonitor(plazas, transiciones, eleccion);
-        ArrayList<Thread> hilos = new ArrayList<>();
-        BufferedReader br = null;
-        br = new BufferedReader(new FileReader(path1));
-        for (int i = 0; i < 18; i++)
-        {
-            String line  = br.readLine();
-            String[] items = line.split(",");
-            List list = Arrays.asList(items);
-            Hilo hilo1 = new Hilo (monitor, transiciones.getKeys(), new ArrayList<>(list));
-            hilos.add(new Thread(hilo1));
-        }
-        br.close();         
-        for (Thread aux : hilos)
-        {
-            aux.start();
-        }
+       
     }
     
     
