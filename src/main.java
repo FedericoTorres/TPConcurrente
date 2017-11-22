@@ -45,7 +45,7 @@ public class main {
                 + " haber ejecutado anteriormente este programa.");
         System.out.println("Si desea ejecutar la Red de Petri, por favor"
                 + " presione 1, si en cambio desea testear resultados previos"
-                   + " presione 2");
+                   + " presione cualquier otro número");
         System.out.print("Ingrese su eleccion: ");
         int num;
         while (!teclado.hasNextInt()) 
@@ -98,7 +98,7 @@ public class main {
                 aux.start();
             }   
         }
-        else if (num == 2)
+        else
         {
             TestPInvariante test = new TestPInvariante ();
             test.testear();
