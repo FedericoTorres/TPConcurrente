@@ -48,45 +48,12 @@ public class main {
         path1 = buff.toString();
         Scanner teclado = new Scanner(System.in);
 
-
-        System.out.println("Bienvenido al Trabajo Final de Programación"
-                + "  Concurrente de Corrado Leonardo & Torres Federico");
-        System.out.println("Usted puede elegir Testear una ejecución previa"
-                + " o puede realizar una nueva ejecución de la Red de Petri");
-        System.out.println("Por favor, tenga en cuenta que para Testear debe"
-                + " haber ejecutado anteriormente este programa.");
-        System.out.println("Si desea ejecutar la Red de Petri, por favor"
-                + " presione 1, si en cambio desea testear resultados previos"
-                   + " presione cualquier otro número");
-        System.out.print("Ingrese su eleccion: ");
-        int num;
-        while (!teclado.hasNextInt()) 
-        {
-            System.out.println("Ingrese un número por favor!");
-            System.out.print("Ingrese su elección: ");
-            teclado.nextLine();
-        }
-        num = teclado.nextInt();
-        System.out.println("Usted elegió la opción n°: " + num);
+        int num = queEjecutar(teclado);
+        
         if (num == 1)
         {
-            System.out.println("Elija una de las siguientes políticas:");
-            System.out.println("Ingrese 1 si desea:"
-                    + " 2 piezas de B por cada pieza de A y C");
-            System.out.println("Ingrese 2 si desea:"
-                    + " 3 piezas de A por cada pieza de B y C");
-            System.out.println("Ingrese 3 si desea:"
-                    + "una política de disparo equitativa");
-            System.out.print("Ingrese su elección: ");
-            int eleccion;
-            while (!teclado.hasNextInt()) 
-            {
-                System.out.println("Ingrese un número por favor!");
-                System.out.print("Ingrese su elección: ");
-                teclado.nextLine();
-            }
-            eleccion = teclado.nextInt();
-            System.out.println("Usted eligió la política n°: " + eleccion);
+            
+            int eleccion = quePolitica(teclado);
             teclado.close();
             PlazaAEstado plazas;
             plazas = instanciarPlazaAEstado();
@@ -122,6 +89,16 @@ public class main {
     }
     
     
+   /**
+    * Función que se encarga de devolver una instancia de la clase monitor
+    * pasándole como parámetro los traductores y la política que decidió
+    * el usuario
+    * @param plazas
+    * @param transiciones
+    * @param eleccion
+    * @return
+    * @throws IOException 
+    */
     public static Monitor instanciarMonitor(PlazaAEstado plazas, 
                                               TransicionAEvento transiciones,
                                               int eleccion) throws IOException
@@ -152,6 +129,12 @@ public class main {
                 path3, path4, path8, eleccion);
     }
     
+    /**
+     * Método que se encarga de instanciar el traductor de plazas, de esta clase
+     * se obtendrá una lista con todas las plazas de la red.
+     * @return
+     * @throws IOException 
+     */
     public static PlazaAEstado instanciarPlazaAEstado() throws IOException
     {
         String path1 = "/src/datos/DetallesDePlazas.csv";
@@ -163,6 +146,12 @@ public class main {
         return new PlazaAEstado(path1);
     }
     
+    /**
+     * Método que se encarga de instanciar el traductor de transiciones, de esta
+     * clase se obtendrá una lista con todas las transiciones de la red.
+     * @return
+     * @throws IOException 
+     */
     public static TransicionAEvento instanciarTransicionAEvento () throws IOException
     {
         String path1 = "/src/datos/DetallesDeTransiciones.csv";
@@ -172,6 +161,62 @@ public class main {
         buff.append(path1);
         path1 = buff.toString();
         return new TransicionAEvento(path1);
+    }
+    
+    /**
+     * Método que da la bienvenida al usuario y le permite ingresar por teclado
+     * que acción desea realizar. Ejecutar el test de la RDP o ejecutar la RDP
+     * @param teclado, Scanner que analiza las entradas por teclado
+     * @return entero que representa la elección realizada por el usuario
+     */
+    public static int queEjecutar(Scanner teclado)
+    {
+        System.out.println("Bienvenido al Trabajo Final de Programación"
+                + "  Concurrente de Corrado Leonardo & Torres Federico");
+        System.out.println("Usted puede elegir Testear una ejecución previa"
+                + " o puede realizar una nueva ejecución de la Red de Petri");
+        System.out.println("Por favor, tenga en cuenta que para Testear debe"
+                + " haber ejecutado anteriormente este programa.");
+        System.out.println("Si desea ejecutar la Red de Petri, por favor"
+                + " presione 1, si en cambio desea testear resultados previos"
+                + " presione cualquier otro número");
+        System.out.print("Ingrese su eleccion: ");
+        int num;
+        while (!teclado.hasNextInt()) {
+            System.out.println("Ingrese un número por favor!");
+            System.out.print("Ingrese su elección: ");
+            teclado.nextLine();
+        }
+        num = teclado.nextInt();
+        System.out.println("Usted elegió la opción n°: " + num);
+        return num;
+    }
+    
+    /**
+     * Método que le permite al usuario elegir qué política debera manejar 
+     * la red de petri.
+     * @param teclado Scanner que analiza la entrada por teclado
+     * @return entero que representa la política que eligió el usuario.
+     */
+    public static int quePolitica(Scanner teclado)
+    {
+        System.out.println("Elija una de las siguientes políticas:");
+        System.out.println("Ingrese 1 si desea:"
+                + " 2 piezas de B por cada pieza de A y C");
+        System.out.println("Ingrese 2 si desea:"
+                + " 3 piezas de A por cada pieza de B y C");
+        System.out.println("Ingrese 3 si desea:"
+                + "una política de disparo equitativa");
+        System.out.print("Ingrese su elección: ");
+        int eleccion;
+        while (!teclado.hasNextInt()) {
+            System.out.println("Ingrese un número por favor!");
+            System.out.print("Ingrese su elección: ");
+            teclado.nextLine();
+        }
+        eleccion = teclado.nextInt();
+        System.out.println("Usted eligió la política n°: " + eleccion);
+        return eleccion;
     }
     
 }
