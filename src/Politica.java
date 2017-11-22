@@ -103,13 +103,13 @@ public class Politica
             logPiezas.println("Linea 3: " + getNumero("T31", contador) + " piezas.");
             logPiezas.println("TOTAL: " + getNumero("TOTAL", contador) + " piezas.");
         }
-        if (contadorFinal.containsKey(transicion))
+       /* if (contadorFinal.containsKey(transicion))
         {
             contadorFinal.replace(transicion, contadorFinal.get(transicion) + 1);
             logPiezas.println("Final Linea 1: " + getNumero("T19", contadorFinal) + " piezas.");
             logPiezas.println("Final Linea 2: " + getNumero("T24", contadorFinal) + " piezas.");
             logPiezas.println("Final Linea 3: " + getNumero("T36", contadorFinal) + " piezas.");
-        }
+        }*/
             
         ArrayList <String> aux = new ArrayList<>();
         //Meter en la lista aux las transiciones que ya estan en su limite

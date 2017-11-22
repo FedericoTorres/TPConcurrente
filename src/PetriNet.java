@@ -144,7 +144,7 @@ public class PetriNet
         return listaAuxiliar;
     }
     
-    /** CAMBIAR???? EH?????
+    /** 
      * Función privada que se encarga de actualizar la lista
      * de transiciones disponibles para disparo.
      */

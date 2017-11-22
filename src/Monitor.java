@@ -79,7 +79,6 @@ public class Monitor
             marcados = new PrintStream(new FileOutputStream(path2));
         } catch (FileNotFoundException e) 
         {
-			// TODO Auto-generated catch block
             e.printStackTrace();
 	}
         archivito.println("\t\tTiempo\t\tID\t\tDescripción\t\tTransicion\t\t"
@@ -109,7 +108,7 @@ public class Monitor
         k = true;
         while(k)
         {
-            /**
+            /*
              * Comprobar si la transición está sensibilizada y
              * si la misma es permitida según la política actual
              * En caso de que una de las condiciones no se cumpla, se considera
@@ -117,14 +116,14 @@ public class Monitor
              */
             if(pn.puedeDispararse(transicion) && !politica.getInvalidas().contains(transicion))
             {
-                /**
+                /*
                  * La transición se encuentra sensibilizada y la política 
                  * permite su disparo, es necesario comprobar entonces
                  * si se encuentra dentro de la ventana de tiempo
                  */
                 if (pn.testVentanaTiempo(transicion))
                 {
-                    /**
+                    /*
                      * Se encuentra dentro la ventana por lo que solo falta
                      * comprobar si otro hilo ya se encontraba esperando 
                      * por ejecutar la misma transición, en caso de que ningún 
@@ -134,6 +133,8 @@ public class Monitor
                     {
                         pn.disparo(transicion);
                         politica.registrarDisparo(transicion);
+                        //MODIFICACION
+                        pn.hiloSalirEspera(transicion);
                         marcados.println(Arrays.toString(pn.getMarcado()));
                         ArrayList<String> sensibilizadas = pn.estanSensibilizadas();
                         ArrayList<String> esperando = colas.getEsperando();
@@ -141,7 +142,7 @@ public class Monitor
                                         "\t\tDisparando\t\t\t" + transicion
                                         + "\t\t\t" + esperando + "\t\t\t" + sensibilizadas);
                         sensibilizadas.retainAll(esperando);
-                        /**
+                        /*
                          * Si la intersección de las transiciones sensibilizadas
                          * y transiciones bloqueadas es 0, entonces se pone k
                          * en false y para que otro hilo entre al Monitor
@@ -152,7 +153,7 @@ public class Monitor
                         } 
                         else 
                         {
-                            /**
+                            /*
                              * Si la lista no estaba vacía hay que comprobar
                              * que la lista no posea transiciones inválidas
                              * definidas por la política. Si ninguna transición
@@ -164,7 +165,7 @@ public class Monitor
                             {
                                 k = false;
                             } 
-                            /**
+                            /*
                              * Al menos una transición es disparable según la 
                              * política, luego de disparar se desbloquea un
                              * hilo de las colas de manera aleatoria y se 
@@ -176,7 +177,6 @@ public class Monitor
                                 if (sensibilizadas.size() > 1) 
                                 {
                                     numAleatorio = (int) (Math.random() * sensibilizadas.size());
-
                                 } 
                                 else 
                                 {
@@ -187,7 +187,7 @@ public class Monitor
                             }
                         }  
                     }
-                    /** Un hilo se encuentra esperando para disparar dicha
+                    /* Un hilo se encuentra esperando para disparar dicha
                      * transición
                      * 
                      */
@@ -196,17 +196,17 @@ public class Monitor
                         archivito.println(System.currentTimeMillis() + "\t\t" + 
                                 Thread.currentThread().getId()+"\t\tBloqueado\t\t\t" + transicion +
                                             "\t\t\tDentroDeLaVentana Y Otro Hilo Espera");
-                        colas.acquireTransition(transicion);
                         mutex.release();
+                        colas.acquireTransition(transicion);
                     }
                 }
-                /**
+                /*
                  * El hilo no se encuentra dentro la ventana y es necesario
                  * comprobar si está antes de la ventana (tiempo menor a alfa)
                  */
                 else if (pn.antesDeLaVentana(transicion))
                 {
-                    /**
+                    /*
                      * Se encuentra antes de la ventana y es necesario
                      * comprobar que ningún otro hilo se encuentra
                      * esperando por la misma transición
@@ -223,16 +223,16 @@ public class Monitor
                         try 
                         {
                             Thread.sleep(tiempoHasta);
-                             pn.hiloSalirEspera(transicion);
+                            //pn.hiloSalirEspera(transicion);
                             mutex.acquire();
                         } 
                         catch (InterruptedException ex) 
                         {
                             Logger.getLogger(Monitor.class.getName()).log(Level.SEVERE, null, ex);
                         }
-                       k = true;
+                        k = true;
                     }
-                    /** El hilo se encuentra antes de la ventana y además
+                    /* El hilo se encuentra antes de la ventana y además
                      * otro hilo está esperando por disparar la misma
                      * transición
                      */
@@ -245,7 +245,7 @@ public class Monitor
                         colas.acquireTransition(transicion);     
                     }
                 }
-                /**
+                /*
                  * El hilo cayó fuera de la ventana de tiempo, es decir, su 
                  * tiempoes mayor a Beta. El programa fue diseñado para que esta
                  * condición nunca se produzca al definir Betas muy grandes.
@@ -259,7 +259,7 @@ public class Monitor
                     colas.acquireTransition(transicion); 
                 }
             }
-            /**
+            /*
              * La transición no se encuentra sensibilizada por lo tanto
              * el hilo debe bloquearse y liberar el monitor.
              */
@@ -271,7 +271,7 @@ public class Monitor
                 colas.acquireTransition(transicion);
             }
         }
-        /**
+        /*
          * K fue false, se salió del ciclo, es necesario devolver el mutex 
          * y salir del monitor.
          */

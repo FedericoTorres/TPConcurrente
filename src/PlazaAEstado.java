@@ -1,12 +1,9 @@
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 
 /*
@@ -29,7 +26,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author leonardo
+ * @author Corrado, Leonardo y Torres, Federico
  */
 public class PlazaAEstado 
 {
@@ -62,12 +59,12 @@ public class PlazaAEstado
      *  Método que devuelve la descripción de la plaza 
      *  indicada como parámetro.
      * 
-     * @param plazita
+     * @param plaza
      * @return String
      */
-    public synchronized String getEstado(String plazita)
+    public synchronized String getEstado(String plaza)
     {
-        return mapaEstados.get(plazita);
+        return mapaEstados.get(plaza);
     }
     
     public Set getKeys()

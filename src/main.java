@@ -81,11 +81,7 @@ public class main {
         {
             TestPInvariante test = new TestPInvariante ();
             test.testear();
-        }
-        
-          
-        
-       
+        }   
     }
     
     
@@ -204,7 +200,7 @@ public class main {
         System.out.println("Ingrese 1 si desea:"
                 + " 2 piezas de B por cada pieza de A y C");
         System.out.println("Ingrese 2 si desea:"
-                + " 3 piezas de A por cada pieza de B y C");
+                + " 3 piezas de A por cada 2 piezas de B y una de C");
         System.out.println("Ingrese 3 si desea:"
                 + "una política de disparo equitativa");
         System.out.print("Ingrese su elección: ");

@@ -25,7 +25,7 @@ import java.util.Set;
 
 /**
  *
- * @author leonardo
+ * @author Corrado, Leonardo y Torres, Federico
  */
 public class TransicionAEvento 
 {
