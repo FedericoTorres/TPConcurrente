@@ -42,7 +42,7 @@ public class Monitor
     
     public Monitor (String matrizFile, Set plazas, Set transiciones, 
                     String marcadoInicialFile, String sensibilizadasFile,
-                    String tiemposFile) throws IOException
+                    String tiemposFile, int eleccion) throws IOException
     {
         pn = new PetriNet(matrizFile, plazas, transiciones, 
                           marcadoInicialFile, sensibilizadasFile,
@@ -50,7 +50,7 @@ public class Monitor
         colas = new Queues (pn.getListaTransiciones());
         mutex = new Semaphore(1,true);
         k = false;
-        politica  = new Politica (2);
+        politica  = new Politica (eleccion);
         StringBuffer buff = new StringBuffer();
         String filePath = new File("").getAbsolutePath();
         String path = "/src/datos/log_prueba.txt";

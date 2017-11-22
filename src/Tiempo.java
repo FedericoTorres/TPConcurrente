@@ -48,14 +48,6 @@ public class Tiempo
             alfaBeta [0][i] = Integer.parseInt (items [1]);
             alfaBeta [1][i] = Integer.parseInt (items [2]);   
         }
-        for (int i = 0; i < 2; i++)
-        {
-            for (int  j = 0; j < 20 ; j++)
-            {
-                System.out.print("  " + alfaBeta [i][j]);
-            }
-            System.out.println("\n");
-        }
     }
     
     /**

@@ -27,7 +27,6 @@ public class Hilo implements Runnable
         this.monitor = monitor;
         Collections.sort(transicionesADisparar);
         transicionesADisparar.retainAll(filtro);
-        System.out.println(transicionesADisparar);
     }
     
 

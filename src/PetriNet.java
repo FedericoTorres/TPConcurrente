@@ -41,7 +41,6 @@ public class PetriNet
             {
                 matrizDeIncidencia [i][j] = Integer.parseInt (items[j]);
             }
-            System.out.println ("");
         }
         br.close ();
         
@@ -69,7 +68,6 @@ public class PetriNet
         {
             sensibilizadas [i] = Boolean.parseBoolean (items [i]);
         }
-        System.out.println (Arrays.toString (sensibilizadas));
         this.actualizarSensibilizadas ();
     }
         

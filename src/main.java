@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -33,15 +34,27 @@ public class main {
         buff.append(filePath);
         buff.append(path1);
         path1 = buff.toString();
+        Scanner teclado = new Scanner(System.in);
 
 
-        
+        System.out.println("Bienvenido al Trabajo Final de Programación"
+                + "  Concurrente de Corrado Leonardo & Torres Federico");
+        System.out.println("Elija una de las siguientes políticas:");
+        System.out.println("Ingrese 1 si desea:"
+                            + " 2 piezas de B por cada pieza de A y C");
+        System.out.println("Ingrese 2 si desea:" +
+                             " 3 piezas de A por cada pieza de B y C");
+        System.out.println("Ingrese 3 si desea:" +
+                             "una política de disparo aleatoria");
+        int eleccion = teclado.nextInt();
+        teclado.close();
+          
         
         PlazaAEstado plazas;
         plazas = instanciarPlazaAEstado();
         System.out.println("---------------------");
         TransicionAEvento transiciones = instanciarTransicionAEvento();
-        Monitor monitor = instanciarMonitor(plazas, transiciones);
+        Monitor monitor = instanciarMonitor(plazas, transiciones, eleccion);
         ArrayList<Thread> hilos = new ArrayList<>();
         BufferedReader br = null;
         br = new BufferedReader(new FileReader(path1));
@@ -53,11 +66,7 @@ public class main {
             Hilo hilo1 = new Hilo (monitor, transiciones.getKeys(), new ArrayList<>(list));
             hilos.add(new Thread(hilo1));
         }
-        br.close();
-
-        System.out.println("AQUI COMIENZA LA EJECUCION REAL");
-        System.out.println("------------------------------");
-        
+        br.close();         
         for (Thread aux : hilos)
         {
             aux.start();
@@ -66,7 +75,8 @@ public class main {
     
     
     public static Monitor instanciarMonitor(PlazaAEstado plazas, 
-                                    TransicionAEvento transiciones) throws IOException
+                                              TransicionAEvento transiciones,
+                                              int eleccion) throws IOException
     {
         String path1 = "/src/datos/";
         String path2 = "MatrizIncidencia.csv";
@@ -91,7 +101,7 @@ public class main {
         
         return new Monitor(path2, plazas.getKeys(),
                 transiciones.getKeys(),
-                path3, path4, path8);
+                path3, path4, path8, eleccion);
     }
     
     public static PlazaAEstado instanciarPlazaAEstado() throws IOException
