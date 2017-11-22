@@ -209,6 +209,12 @@ public class PetriNet
         this.tiempo.hiloSalirEspera (getIndexOfTransition (transicion));
     }
     
+    /**
+     * Método que devuelve el tiempo que falta para estar DENTRO de la ventana
+     * de la transición indicada como parámetro
+     * @param transicion 
+     * @return -> cantidad de tiempo que falta a la ventana
+     */
     public long cuantoFaltaAVentana (String transicion)
     {
         return this.tiempo.cuantoFaltaAVentana (getIndexOfTransition (transicion));
