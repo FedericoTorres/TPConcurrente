@@ -45,14 +45,23 @@ public class main {
         System.out.println("Ingrese 2 si desea:" +
                              " 3 piezas de A por cada pieza de B y C");
         System.out.println("Ingrese 3 si desea:" +
-                             "una política de disparo aleatoria");
-        int eleccion = teclado.nextInt();
+                             "una política de disparo equitativa");
+        System.out.print("Ingrese su elección: ");
+        int eleccion;
+        while (!teclado.hasNextInt()) 
+        {
+            System.out.println("Ingrese un número por favor!");
+            System.out.print("Ingrese su elección: ");
+            teclado.nextLine();
+        }
+        eleccion = teclado.nextInt();
+        System.out.println("Usted eligió la política n°: " + eleccion);
         teclado.close();
           
         
         PlazaAEstado plazas;
         plazas = instanciarPlazaAEstado();
-        System.out.println("---------------------");
+        System.out.println("Ejecutando y Registrando en los logs.....");
         TransicionAEvento transiciones = instanciarTransicionAEvento();
         Monitor monitor = instanciarMonitor(plazas, transiciones, eleccion);
         ArrayList<Thread> hilos = new ArrayList<>();

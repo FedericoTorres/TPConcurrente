@@ -58,6 +58,12 @@ public class Politica
             politicaActual.put ("T21", 2);
             politicaActual.put ("T31", 1);
         }
+        else
+        {
+            politicaActual.put("T10", 1);
+            politicaActual.put("T21", 1);
+            politicaActual.put("T31", 1);
+        }
         contador.put ("T10", 0);
         contador.put ("T21", 0);
         contador.put ("T31", 0);
